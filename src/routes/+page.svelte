@@ -38,7 +38,7 @@
     const faq = [
         {
             question:
-                "It is my first time to counselling, what if I am nervous and don’t know what to talk about?",
+                "It is my first time coming to counselling, what if I am nervous and don’t know what to talk about?",
             answer: "It is completely normal and very common to feel nervous about a first counselling session. I like to remind my clients that they are in the driver seat, and as a counsellor, I am in the passenger seat, meaning that there are no obligations, and I will go at your own pace. During a first counselling session, we will review informed consent and I will ask a variety of questions related to your reason for coming to counselling that will provide some guidance. Any questions you may have can be answered at this time, or at any point throughout counselling. In the first session, I want to help you feel as comfortable as possible and get to know you better!",
         },
         {
@@ -215,13 +215,13 @@
         id="about"
         class="flex flex-col gap-8 sm:gap-10 md:gap-14 pb-12 sm:pb-16 md:pb-20 px-6 sm:px-8 max-w-[1200px] mx-auto w-full"
     >
-        <p class="font-semibold text-lg sm:text-xl md:text-3xl">
+        <p class="font-semibold text-lg sm:text-xl md:text-3xl mx-auto">
             Areas of practice
         </p>
         <h1
             class="text-4xl sm:text-5xl md:text-6xl font-semibold max-w-[700px] mx-auto w-full text-center"
         >
-            Experience in <b class="text-indigo-400">helping</b> you feel your best
+            Experienced in <b class="text-indigo-400">helping</b> you feel your best
         </h1>
         <p
             class="text-sm sm:text-base max-w-[700px] mx-auto w-full text-center"
@@ -259,13 +259,13 @@
         id="services"
         class="flex flex-col gap-8 sm:gap-10 md:gap-14 py-14 sm:py-20 text-white bg-indigo-400 px-6 sm:px-8"
     >
-        <p class="font-semibold text-lg sm:text-xl md:text-3xl">
+        <p class="font-semibold text-lg sm:text-xl md:text-3xl mx-auto">
             Services I offer
         </p>
         <h1
             class="text-4xl sm:text-5xl md:text-6xl font-semibold max-w-[700px] mx-auto w-full text-center"
         >
-            Feeling stuck? I'm here to <b class="text-indigo-400">help</b>!
+            Feeling stuck? I'm here to help!
         </h1>
         <p
             class="text-sm sm:text-base max-w-[700px] mx-auto w-full text-center"
@@ -308,9 +308,14 @@
         <h1
             class="text-4xl sm:text-5xl md:text-6xl font-semibold max-w-[700px] mx-auto w-full text-center"
         >
-            Answers to your <b class="text-indigo-400">questions</b>
+            FAQ
         </h1>
 
+        <p
+            class="text-sm sm:text-base max-w-[700px] mx-auto w-full text-center"
+        >
+            Answers to your questions.
+        </p>
         <div
             class="flex flex-col gap-4 select-none max-w-[800px] mx-auto w-full"
         >
