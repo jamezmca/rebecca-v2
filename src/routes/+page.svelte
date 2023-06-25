@@ -310,12 +310,6 @@
         >
             FAQ
         </h1>
-
-        <p
-            class="text-sm sm:text-base max-w-[700px] mx-auto w-full text-center"
-        >
-            Answers to your questions.
-        </p>
         <div
             class="flex flex-col gap-4 select-none max-w-[800px] mx-auto w-full"
         >
