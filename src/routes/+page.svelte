@@ -13,7 +13,7 @@
         "Trauma & PSTD",
         "Disordered eating",
         "Exercise addiction",
-        "Sexuality",
+        // "Sexuality",
         "Loss & grief",
         "Life transitions",
         "Depression",
@@ -32,30 +32,14 @@
             name: "counselling",
             content: "50 or 75 minute individual counselling session",
         },
-        { name: "location", content: "Available online only" },
+        { name: "location", content: "Sessions available online only" },
     ];
 
     const faq = [
         {
-            question: "How much does a counselling session cost?",
-            answer: "Individual Counselling Session (50 Minutes) - $140.00 NZD and for Individual Counselling Session (75 Minutes) - $210.00 NZD.",
-        },
-        {
-            question: "Do you provide in-person counselling?",
-            answer: "I am currently only offering online counselling which takes place via a secure encrypted video calling platform.",
-        },
-        {
-            question: "What is your cancellation policy?",
-            answer: "I have a 24hr cancellation policy, meaning that any session can be cancelled or re-scheduled up to 24hrs before the time of the appointment. If less than 24hrs notice of a cancellation is provided, or in the case of a no show, the cost of the session will be charged in full. Considerations may be made in the case of an emergency and will be discussed on a case-by-case basis.",
-        },
-        {
             question:
                 "It is my first time to counselling, what if I am nervous and don’t know what to talk about?",
             answer: "It is completely normal and very common to feel nervous about a first counselling session. I like to remind my clients that they are in the driver seat, and as a counsellor, I am in the passenger seat, meaning that there are no obligations, and I will go at your own pace. During a first counselling session, we will review informed consent and I will ask a variety of questions related to your reason for coming to counselling that will provide some guidance. Any questions you may have can be answered at this time, or at any point throughout counselling. In the first session, I want to help you feel as comfortable as possible and get to know you better!",
-        },
-        {
-            question: "What is your approach to therapy?",
-            answer: "My approach is rooted in a variety of evidence-based modalities, including attachment-based therapy, emotion-focused therapy, internal family systems, person-centered therapy and trauma-informed care. I tailor my therapy approach to each client based on their unique needs, experiences and goals.  I actively encourage clients to voice their questions, concerns and provide feedback throughout the therapeutic process in order to meet their goals and needs. Part of my job is to help clients develop a deeper understanding of themselves, their relationships, and their experiences, and to provide them with the tools and strategies they need to achieve their goals and live more fulfilling lives.",
         },
         {
             question:
@@ -63,8 +47,36 @@
             answer: "I have an Undergraduate degree (BA) in Human Geography and Psychology from the University of British Columbia in Vancouver, Canada and a Master’s degree (MCP) in Counselling Psychology from Adler University in Vancouver, Canada. Prior to starting my private practice, I worked as a counsellor with the Looking Glass Foundation for Eating Disorders in Vancouver, Canada. I am committed to ongoing professional and personal development as a therapist. A few of my additional qualifications/trainings include: Introduction & Deepening - Internal Family Systems (Mind Beyond Institute), Internal Family Systems for Complex Trauma (PESI), Temperament Based Therapy with Support for Anorexia Nervosa (TBT-S Institute), LivingWorks – safeTALK & Skillfully Responding to Distress – (The Crisis Intervention and Suicide Prevention Centre of British Columbia) and Trauma-Informed Practice – Level 1 Certificate.",
         },
         {
+            question: "How much does a counselling session cost?",
+            answer: "$140.00 NZD for a 50 minute counselling session & $210.00 NZD for a 75 minute counselling session.",
+        },
+        {
+            question: "Do you provide in-person counselling?",
+            answer: "I am currently only offering online counselling which takes place via a secure encrypted video calling platform.",
+        },
+        {
+            question: "What can I gain from counselling?",
+            answer: "Speaking freely in a safe and truly non-judgemental atmosphere is designed to be therapeutic, and can enable you to face and embrace your truths.  While confiding in a friend or family member can be valuable, consulting with a qualified therapist provides distinct advantages. Therapists bring expertise, offering diverse perspectives and the necessary tools to tackle your specific challenges. We actively listen, ensuring an unbiased viewpoint and providing feedback. As you work with the right counsellor, you'll gradually develop comfort and confidence in the process. This growth allows for deeper exploration of emotions, leading to clarity in identifying and addressing problems. Counsellors often reframe situations, helping you uncover your own solutions. Many individuals report an array of valuable outcomes from the counselling process, a few include: healthier relationships with self and others, increased self-awareness, self-esteem and the adoption of positive coping strategies.",
+        },
+        {
+            question: "What is your cancellation policy?",
+            answer: "I have a 24hr cancellation policy, meaning that any session can be cancelled or re-scheduled up to 24hrs before the time of the appointment. If less than 24hrs notice of a cancellation is provided, or in the case of a no show, the cost of the session will be charged in full. Considerations may be made in the case of an emergency and will be discussed on a case-by-case basis.",
+        },
+        {
+            question: "What is your approach to therapy?",
+            answer: "My approach is rooted in a variety of evidence-based modalities, including attachment-based therapy, emotion-focused therapy, internal family systems, person-centered therapy and trauma-informed care. I tailor my therapy approach to each client based on their unique needs, experiences and goals.  I actively encourage clients to voice their questions, concerns and provide feedback throughout the therapeutic process in order to meet their goals and needs. Part of my job is to help clients develop a deeper understanding of themselves, their relationships, and their experiences, and to provide them with the tools and strategies they need to achieve their goals and live more fulfilling lives.",
+        },
+        {
+            question: "What can I expect from a counselling session?",
+            answer: "In a counselling session you can expect a comfortable and pressure-free space to discuss the concerns weighing on you. As a counsellor, it is my role to ask the right questions, even if you're uncertain about what specifically is bothering you. In our initial session, we will review the informed consent form together, which outlines my counselling background, confidentiality and what counselling entails. The sessions are collaborative, allowing me to tailor my therapeutic approach to your unique needs. Building a strong therapeutic relationship is vital for successful therapy, and I understand that different clients have different preferences. Some clients prefer uninterrupted self-expression, while others appreciate more structure or guidance. Your session will be tailored to your preferences and what makes you comfortable.",
+        },
+        {
+            question: "How many sessions does counselling take?",
+            answer: "The number of counselling sessions varies for each individual and situation, as there is no set formula. We will collaboratively consider your unique circumstances when determining the frequency and duration of sessions. While acute issues or crises may require regular sessions for a shorter period, many clients transition to less frequent appointments, to sustain their mental health and well-being. This journey is highly personalised, and together we will create a tailored plan based on your goals, needs, and available resources.",
+        },
+        {
             question: "I have other questions for you, how can I reach you?",
-            answer: "If you have any further questions about anything at all, please contact me via my email at beckybradleycounselling@gmail.com or alternatively book a free consultation call.",
+            answer: "If you have any further questions about anything at all, please contact me via my email at beckybradleycounselling@gmail.com, the contact form below, or book a free consultation call.",
         },
         {
             question: "I’ve decided to come to therapy, now what?",
@@ -73,12 +85,14 @@
     ];
 </script>
 
-
 <svelte:head>
-	<title>Becky Bradley Counselling</title>
-	<meta name="robots" content="noindex nofollow" />
-    <meta name="description" content="Eating Disorder Counselling Develop a Healthy Relationship With Yourself, Food and Your Body Emotional and disordered eating (including anorexia and bulimia) can cause so much hurt, suffering and hopelessness. Coming to love yourself and your body is the key to happiness. With therapy you can heal from your disorder">
-	<html lang="en" />
+    <title>Becky Bradley Counselling</title>
+    <meta name="robots" content="noindex nofollow" />
+    <meta
+        name="description"
+        content="Eating Disorder Counselling Develop a Healthy Relationship With Yourself, Food and Your Body Emotional and disordered eating (including anorexia and bulimia) can cause so much hurt, suffering and hopelessness. Coming to love yourself and your body is the key to happiness. With therapy you can heal from your disorder"
+    />
+    <html lang="en" />
 </svelte:head>
 
 <header
@@ -95,7 +109,10 @@
         >
             Becky Bradley Counselling
         </h2> -->
-        <a href="/" class="flex text-center flex-row gap-1 font-medium sm:text-lg">
+        <a
+            href="/"
+            class="flex text-center flex-row gap-1 font-medium sm:text-lg"
+        >
             <h2>Becky Bradley</h2>
             <h2 class="">Counselling</h2>
         </a>
@@ -198,21 +215,25 @@
         id="about"
         class="flex flex-col gap-8 sm:gap-10 md:gap-14 pb-12 sm:pb-16 md:pb-20 px-6 sm:px-8 max-w-[1200px] mx-auto w-full"
     >
+        <p class="font-semibold text-lg sm:text-xl md:text-3xl">
+            Areas of practice
+        </p>
         <h1
             class="text-4xl sm:text-5xl md:text-6xl font-semibold max-w-[700px] mx-auto w-full text-center"
         >
-            A bit <b class="text-indigo-400">about me</b> & areas of practice
+            Experience in <b class="text-indigo-400">helping</b> you feel your best
         </h1>
         <p
             class="text-sm sm:text-base max-w-[700px] mx-auto w-full text-center"
         >
-            I am a Clinical Counsellor based in Auckland, New Zealand. I grew up
-            in six different countries and have developed a deep appreciation
-            for people of diverse cultures, identities and backgrounds. I love
-            spending time outdoors, playing board games and spending time with
-            family and friends. I firmly believe that everyone deserves access
-            to quality therapy and believe from personal experience in the
-            positive impact that therapy can provide.
+            I am a Counsellor based in Auckland, New Zealand. Having had the
+            privilege of growing up in six countries, I have a deep appreciation
+            for diverse identities, cultures and backgrounds. When I'm not
+            outdoors, playing board games or enjoying time with loved ones, I'm
+            dedicated to making quality therapy accessible to all. Through my
+            personal journey, I've witnessed firsthand the incredible impact
+            therapy can have. Join me on this empowering path towards positive
+            change.
         </p>
         <a
             href="#FAQ"
@@ -225,7 +246,7 @@
             {#each [...keyWords].sort() as keyWord}
                 <div
                     class={" py-2 rounded text-xs sm:text-base px-3 text-white sm:flex-1 text-center " +
-                        ["bg-indigo-500", "bg-indigo-400", "bg-indigo-300"][
+                        ["bg-indigo-600", "bg-indigo-500", "bg-indigo-400"][
                             Math.floor(Math.random() * 3)
                         ]}
                 >
@@ -238,19 +259,21 @@
         id="services"
         class="flex flex-col gap-8 sm:gap-10 md:gap-14 py-14 sm:py-20 text-white bg-indigo-400 px-6 sm:px-8"
     >
+        <p class="font-semibold text-lg sm:text-xl md:text-3xl">
+            Services I offer
+        </p>
         <h1
             class="text-4xl sm:text-5xl md:text-6xl font-semibold max-w-[700px] mx-auto w-full text-center"
         >
-            My services
+            Feeling stuck? I'm here to <b class="text-indigo-400">help</b>!
         </h1>
         <p
             class="text-sm sm:text-base max-w-[700px] mx-auto w-full text-center"
         >
-            I work collaboratively with you to achieve your goals, using a range
-            of therapeutic approaches and techniques tailored to your unique
-            needs. I utilise a compassionate and empathetic approach to create a
-            safe and supportive environment where clients can explore their
-            feelings, thoughts, and behaviours.
+            We work collaboratively to achieve your goals using tailored
+            therapeutic approaches and techniques. I use a compassionate and
+            empathetic approach to create a safe and supportive space where you
+            can explore your emotions, thoughts and behaviours.
         </p>
         <div
             class="flex flex-col sm:flex-row gap-4 sm:gap-6 max-w-[1000px] mx-auto w-full"
@@ -285,8 +308,9 @@
         <h1
             class="text-4xl sm:text-5xl md:text-6xl font-semibold max-w-[700px] mx-auto w-full text-center"
         >
-            FAQ
+            Answers to your <b class="text-indigo-400">questions</b>
         </h1>
+
         <div
             class="flex flex-col gap-4 select-none max-w-[800px] mx-auto w-full"
         >
@@ -304,11 +328,11 @@
                     }}
                     class="flex flex-col gap-4 sm:gap-6 p-4 border-l-[1.5px] duration-200 cursor-pointer group border-solid border-indigo-400"
                 >
-                    <h4 class="group-hover:pl-2 duration-200">
+                    <h4 class="group-hover:pl-2 duration-200 sm:text-lg">
                         {question.question}
                     </h4>
                     {#if displayFAQ.includes(questionIndex)}
-                        <p class="text-slate-600 pl-2 text-xs sm:text-sm">
+                        <p class="text-slate-600 pl-2 text-sm sm:text-base">
                             {question.answer}
                         </p>
                     {/if}
