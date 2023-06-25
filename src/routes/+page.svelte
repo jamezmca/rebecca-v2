@@ -190,7 +190,7 @@
             </h1>
             <p class="text-sm sm:text-base">
                 Step into a space of <b class="font-normal text-indigo-500"
-                    >non-judgment, trust and empowerment</b
+                    >non-judgement, trust and empowerment</b
                 >, where together we will discover your path to healing. I will
                 assist you in recognising and developing your inherent
                 strengths, knowledge and self-awareness to
