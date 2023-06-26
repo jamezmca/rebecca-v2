@@ -216,7 +216,7 @@
         class="flex flex-col gap-8 sm:gap-10 md:gap-14 pb-12 sm:pb-16 md:pb-20 px-6 sm:px-8 max-w-[1200px] mx-auto w-full"
     >
         <p class="font-semibold text-lg sm:text-xl md:text-3xl mx-auto">
-            Areas of Practice
+            About & Areas of Practice
         </p>
         <h1
             class="text-4xl sm:text-5xl md:text-6xl -mt-4 font-semibold max-w-[700px] mx-auto w-full text-center"
