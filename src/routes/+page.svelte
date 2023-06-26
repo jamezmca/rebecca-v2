@@ -216,10 +216,10 @@
         class="flex flex-col gap-8 sm:gap-10 md:gap-14 pb-12 sm:pb-16 md:pb-20 px-6 sm:px-8 max-w-[1200px] mx-auto w-full"
     >
         <p class="font-semibold text-lg sm:text-xl md:text-3xl mx-auto">
-            Areas of practice
+            Areas of Practice
         </p>
         <h1
-            class="text-4xl sm:text-5xl md:text-6xl font-semibold max-w-[700px] mx-auto w-full text-center"
+            class="text-4xl sm:text-5xl md:text-6xl -mt-4 font-semibold max-w-[700px] mx-auto w-full text-center"
         >
             Experienced in <b class="text-indigo-400">helping</b> you feel your best
         </h1>
@@ -235,11 +235,6 @@
             therapy can have. Join me on this empowering path towards positive
             change.
         </p>
-        <a
-            href="#FAQ"
-            class=" px-4 py-2 rounded-lg bg-white border-[1.5px] border-solid duration-200 cursor-pointer hover:border-indigo-200 mx-auto border-indigo-400 text-indigo-500 text-sm -my-4"
-            >Learn more</a
-        >
         <div
             class="flex items-center flex-wrap gap-2 sm:gap-4 max-w-[700px] mx-auto w-full justify-center"
         >
@@ -254,16 +249,21 @@
                 </div>
             {/each}
         </div>
+        <a
+            href="#FAQ"
+            class=" px-4 py-2 rounded-lg bg-white border-[1.5px] border-solid duration-200 cursor-pointer hover:border-indigo-200 mx-auto border-indigo-400 text-indigo-500 text-sm -my-4"
+            >Learn more</a
+        >
     </section>
     <section
         id="services"
         class="flex flex-col gap-8 sm:gap-10 md:gap-14 py-14 sm:py-20 text-white bg-indigo-400 px-6 sm:px-8"
     >
         <p class="font-semibold text-lg sm:text-xl md:text-3xl mx-auto">
-            Services I offer
+            Services I Offer
         </p>
         <h1
-            class="text-4xl sm:text-5xl md:text-6xl font-semibold max-w-[700px] mx-auto w-full text-center"
+            class="text-4xl sm:text-5xl md:text-6xl -mt-4 font-semibold max-w-[700px] mx-auto w-full text-center"
         >
             Feeling stuck? I'm here to help!
         </h1>
