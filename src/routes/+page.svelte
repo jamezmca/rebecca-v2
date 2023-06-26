@@ -39,12 +39,16 @@
         {
             question:
                 "It is my first time coming to counselling, what if I am nervous and don’t know what to talk about?",
-            answer: "It is completely normal and very common to feel nervous about a first counselling session. I like to remind my clients that they are in the driver seat, and as a counsellor, I am in the passenger seat, meaning that there are no obligations, and I will go at your own pace. During a first counselling session, we will review informed consent and I will ask a variety of questions related to your reason for coming to counselling that will provide some guidance. Any questions you may have can be answered at this time, or at any point throughout counselling. In the first session, I want to help you feel as comfortable as possible and get to know you better!",
+            answer: "It is completely normal and very common to feel nervous about a first counselling session. I like to remind my clients that they are in the driver seat, and as a counsellor, I am in the passenger seat, meaning that there are no obligations, and I will go at your own pace. As a counsellor, it is my role to ask the right questions, even if you're uncertain about what specifically is bothering you. During a first counselling session, we will review informed consent and I will ask a variety of questions that will provide some guidance. Any questions you may have can be answered at this time, or at any point throughout counselling. Building a strong therapeutic relationship is vital for successful therapy, and I understand that different clients have different preferences. Some clients prefer uninterrupted self-expression, while others appreciate more structure or guidance. Your session will be tailored to your preferences and what makes you comfortable. Ultimately, in the first session, I want to help you feel as comfortable as possible and get to know you better!",
         },
         {
             question:
                 "What are your counselling qualifications and experience?",
             answer: "I have an Undergraduate degree (BA) in Human Geography and Psychology from the University of British Columbia in Vancouver, Canada and a Master’s degree (MCP) in Counselling Psychology from Adler University in Vancouver, Canada. Prior to starting my private practice, I worked as a counsellor with the Looking Glass Foundation for Eating Disorders in Vancouver, Canada. I am committed to ongoing professional and personal development as a therapist. A few of my additional qualifications/trainings include: Introduction & Deepening - Internal Family Systems (Mind Beyond Institute), Internal Family Systems for Complex Trauma (PESI), Temperament Based Therapy with Support for Anorexia Nervosa (TBT-S Institute), LivingWorks – safeTALK & Skillfully Responding to Distress – (The Crisis Intervention and Suicide Prevention Centre of British Columbia) and Trauma-Informed Practice – Level 1 Certificate.",
+        },
+        {
+            question: "What is your approach to therapy?",
+            answer: "My approach is rooted in a variety of evidence-based modalities, including attachment-based therapy, emotion-focused therapy, internal family systems, person-centered therapy and trauma-informed care. I tailor my therapy approach to each client based on their unique needs, experiences and goals.  I actively encourage clients to voice their questions, concerns and provide feedback throughout the therapeutic process in order to meet their goals and needs. Part of my job is to help clients develop a deeper understanding of themselves, their relationships, and their experiences, and to provide them with the tools and strategies they need to achieve their goals and live more fulfilling lives.",
         },
         {
             question: "How much does a counselling session cost?",
@@ -62,14 +66,10 @@
             question: "What is your cancellation policy?",
             answer: "I have a 24hr cancellation policy, meaning that any session can be cancelled or re-scheduled up to 24hrs before the time of the appointment. If less than 24hrs notice of a cancellation is provided, or in the case of a no show, the cost of the session will be charged in full. Considerations may be made in the case of an emergency and will be discussed on a case-by-case basis.",
         },
-        {
-            question: "What is your approach to therapy?",
-            answer: "My approach is rooted in a variety of evidence-based modalities, including attachment-based therapy, emotion-focused therapy, internal family systems, person-centered therapy and trauma-informed care. I tailor my therapy approach to each client based on their unique needs, experiences and goals.  I actively encourage clients to voice their questions, concerns and provide feedback throughout the therapeutic process in order to meet their goals and needs. Part of my job is to help clients develop a deeper understanding of themselves, their relationships, and their experiences, and to provide them with the tools and strategies they need to achieve their goals and live more fulfilling lives.",
-        },
-        {
-            question: "What can I expect from a counselling session?",
-            answer: "In a counselling session you can expect a comfortable and pressure-free space to discuss the concerns weighing on you. As a counsellor, it is my role to ask the right questions, even if you're uncertain about what specifically is bothering you. In our initial session, we will review the informed consent form together, which outlines my counselling background, confidentiality and what counselling entails. The sessions are collaborative, allowing me to tailor my therapeutic approach to your unique needs. Building a strong therapeutic relationship is vital for successful therapy, and I understand that different clients have different preferences. Some clients prefer uninterrupted self-expression, while others appreciate more structure or guidance. Your session will be tailored to your preferences and what makes you comfortable.",
-        },
+        // {
+        //     question: "What can I expect from a counselling session?",
+        //     answer: "In a counselling session you can expect a comfortable and pressure-free space to discuss the concerns weighing on you. As a counsellor, it is my role to ask the right questions, even if you're uncertain about what specifically is bothering you. In our initial session, we will review the informed consent form together, which outlines my counselling background, confidentiality and what counselling entails. The sessions are collaborative, allowing me to tailor my therapeutic approach to your unique needs. Building a strong therapeutic relationship is vital for successful therapy, and I understand that different clients have different preferences. Some clients prefer uninterrupted self-expression, while others appreciate more structure or guidance. Your session will be tailored to your preferences and what makes you comfortable.",
+        // },
         {
             question: "How many sessions does counselling take?",
             answer: "The number of counselling sessions varies for each individual and situation, as there is no set formula. We will collaboratively consider your unique circumstances when determining the frequency and duration of sessions. While acute issues or crises may require regular sessions for a shorter period, many clients transition to less frequent appointments, to sustain their mental health and well-being. This journey is highly personalised, and together we will create a tailored plan based on your goals, needs, and available resources.",
@@ -216,12 +216,13 @@
         class="flex flex-col gap-8 sm:gap-10 md:gap-14 pb-12 sm:pb-16 md:pb-20 px-6 sm:px-8 max-w-[1200px] mx-auto w-full"
     >
         <p class="font-semibold text-lg sm:text-xl md:text-3xl mx-auto">
-            About & Areas of Practice
+            A bit about me
         </p>
         <h1
             class="text-4xl sm:text-5xl md:text-6xl -mt-4 font-semibold max-w-[700px] mx-auto w-full text-center"
         >
-            Experienced in <b class="text-indigo-400">helping</b> you feel your best
+            Experienced in <b class="text-indigo-400">helping</b> you feel your
+            <b class="text-indigo-400">best</b>
         </h1>
         <p
             class="text-sm sm:text-base max-w-[700px] mx-auto w-full text-center"
@@ -233,7 +234,7 @@
             dedicated to making quality therapy accessible to all. Through my
             personal journey, I've witnessed firsthand the incredible impact
             therapy can have. Join me on this empowering path towards positive
-            change.
+            change. My areas of practice include:
         </p>
         <div
             class="flex items-center flex-wrap gap-2 sm:gap-4 max-w-[700px] mx-auto w-full justify-center"
@@ -260,7 +261,7 @@
         class="flex flex-col gap-8 sm:gap-10 md:gap-14 py-14 sm:py-20 text-white bg-indigo-400 px-6 sm:px-8"
     >
         <p class="font-semibold text-lg sm:text-xl md:text-3xl mx-auto">
-            Services I Offer
+            Services I offer
         </p>
         <h1
             class="text-4xl sm:text-5xl md:text-6xl -mt-4 font-semibold max-w-[700px] mx-auto w-full text-center"
