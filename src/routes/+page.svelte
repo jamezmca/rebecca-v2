@@ -270,10 +270,11 @@
         <p
             class="text-sm sm:text-base max-w-[700px] mx-auto w-full text-center"
         >
-            We work collaboratively to achieve your goals using tailored
-            therapeutic approaches and techniques. I use a compassionate and
-            empathetic approach to create a safe and supportive space where you
-            can explore your emotions, thoughts and behaviours.
+            I will work collaboratively with you to achieve your goals using
+            tailored therapeutic approaches and techniques. I use a
+            compassionate and empathetic approach to create a safe and
+            supportive space where you can explore your emotions, thoughts and
+            behaviours.
         </p>
         <div
             class="flex flex-col sm:flex-row gap-4 sm:gap-6 max-w-[1000px] mx-auto w-full"
