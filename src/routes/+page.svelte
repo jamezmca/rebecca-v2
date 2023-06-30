@@ -230,21 +230,27 @@
             Experienced in <b class="text-indigo-400">helping</b> you feel your
             <b class="text-indigo-400">best</b>
         </h1>
-        <p
-            class="text-sm sm:text-base max-w-[700px] mx-auto w-full text-center"
+        <div
+            class="flex flex-col gap-4 text-sm sm:text-base max-w-[700px] mx-auto w-full text-center sm:text-justify"
         >
-            I am a Counsellor based in Aotearoa (New Zealand) who is passionate
-            about helping individuals with their mental health. I hold a
-            Master’s degree in Counselling Psychology and specialise in anxiety,
-            eating disorders and relationship difficulties. Having had the
-            privilege of growing up in six countries, I have a deep appreciation
-            for diverse identities, cultures and backgrounds. When I'm not
-            outdoors, playing board games or enjoying time with loved ones, I'm
-            dedicated to making quality therapy accessible to all. Through my
-            personal journey, I've witnessed firsthand the incredible impact
-            therapy can have. Join me on this empowering path towards change. I
-            provide individual counselling for a variety of needs including:
-        </p>
+            <p class="">
+                I am a Counsellor based in Aotearoa (New Zealand) who is
+                passionate about helping individuals with their mental health. I
+                hold a Master’s degree in Counselling Psychology and specialise
+                in anxiety, eating disorders and relationship difficulties.
+                Having had the privilege of growing up in six countries, I have
+                a deep appreciation for diverse identities, cultures and
+                backgrounds.
+            </p>
+            <p class="">
+                When I'm not outdoors, playing board games or enjoying time with
+                loved ones, I'm dedicated to making quality therapy accessible
+                to all. Through my personal journey, I've witnessed firsthand
+                the incredible impact therapy can have. Join me on this
+                empowering path towards change. I provide individual counselling
+                for a variety of needs including:
+            </p>
+        </div>
         <div
             class="flex items-center flex-wrap gap-2 sm:gap-4 max-w-[700px] mx-auto w-full justify-center"
         >
@@ -386,7 +392,7 @@
         <p>Copyright © 2023 Becky Bradley Counselling</p>
         <a
             class="text-indigo-400"
-            href="https://www.linkedin.com/in/jamezmcarthur/"
+            href="https://www.smoljames.com"
             target="_blank">Website by James Development</a
         >
     </div>
