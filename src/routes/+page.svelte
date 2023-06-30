@@ -362,7 +362,7 @@
 
         <ContactForm />
         <div class="flex items-center ">
-            <p>Or cum touch me at beckybradleycounselling@gmail.com</p>
+            <p>Or get in touch at beckybradleycounselling@gmail.com</p>
         </div>
     </section>
 </main>
