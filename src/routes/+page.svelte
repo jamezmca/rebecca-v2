@@ -40,13 +40,17 @@
     const faq = [
         {
             question:
+                "What are your counselling qualifications and experience?",
+            answer: "I have an Undergraduate degree (BA) in Human Geography and Psychology from the University of British Columbia in Vancouver, Canada and a Master’s degree (MCP) in Counselling Psychology from Adler University in Vancouver, Canada. Prior to starting my private practice, I worked as a counsellor with the Looking Glass Foundation for Eating Disorders in Vancouver, Canada. I am committed to ongoing professional and personal development as a therapist. A few of my additional qualifications/trainings include: Introduction & Deepening - Internal Family Systems (Mind Beyond Institute), Internal Family Systems for Complex Trauma (PESI), Temperament Based Therapy with Support for Anorexia Nervosa (TBT-S Institute), LivingWorks – safeTALK & Skillfully Responding to Distress – (The Crisis Intervention and Suicide Prevention Centre of British Columbia) and Trauma-Informed Practice – Level 1 Certificate.",
+        },
+        {
+            question:
                 "It is my first time coming to counselling, what if I am nervous and don’t know what to talk about?",
             answer: "It is completely normal and very common to feel nervous about a first counselling session. I like to remind my clients that they are in the driver seat, and as a counsellor, I am in the passenger seat, meaning that there are no obligations, and I will go at your own pace. As a counsellor, it is my role to ask the right questions, even if you're uncertain about what specifically is bothering you. During a first counselling session, we will review informed consent and I will ask a variety of questions that will provide some guidance. Any questions you may have can be answered at this time, or at any point throughout counselling. Building a strong therapeutic relationship is vital for successful therapy, and I understand that different clients have different preferences. Some clients prefer uninterrupted self-expression, while others appreciate more structure or guidance. Your session will be tailored to your preferences and what makes you comfortable. Ultimately, in the first session, I want to help you feel as comfortable as possible and get to know you better!",
         },
         {
-            question:
-                "What are your counselling qualifications and experience?",
-            answer: "I have an Undergraduate degree (BA) in Human Geography and Psychology from the University of British Columbia in Vancouver, Canada and a Master’s degree (MCP) in Counselling Psychology from Adler University in Vancouver, Canada. Prior to starting my private practice, I worked as a counsellor with the Looking Glass Foundation for Eating Disorders in Vancouver, Canada. I am committed to ongoing professional and personal development as a therapist. A few of my additional qualifications/trainings include: Introduction & Deepening - Internal Family Systems (Mind Beyond Institute), Internal Family Systems for Complex Trauma (PESI), Temperament Based Therapy with Support for Anorexia Nervosa (TBT-S Institute), LivingWorks – safeTALK & Skillfully Responding to Distress – (The Crisis Intervention and Suicide Prevention Centre of British Columbia) and Trauma-Informed Practice – Level 1 Certificate.",
+            question: "What can I expect from the consultation call?",
+            answer: "The consultation call gives you an opportunity for you to ask any questions you might have, gain insights into my counselling approach, and ensure a good match between you and me. (Numerous academic studies on effective counselling consistently highlight the importance of the client-therapist relationship as a major factor in achieving success.) During our conversation, I'll share my counselling approach and give you a clear picture of what you can expect if you choose to work with me. Additionally, I will inquire about what has brought you to counselling and what you hope to achieve. From the call, my hope is that you will be able to make an informed decision about whether you would like to book a full session with me.",
         },
         {
             question: "What is your approach to therapy?",
@@ -55,6 +59,10 @@
         {
             question: "How much does a counselling session cost?",
             answer: "$140.00 NZD for a 50 minute counselling session & $210.00 NZD for a 75 minute counselling session.",
+        },
+        {
+            question: "Do you offer sliding scale therapy?",
+            answer: "I offer a limited number of sliding scale rates for those facing financial barriers in accessing therapy. At this time, all of my sliding scale rates are currently full.",
         },
         {
             question: "Do you provide in-person counselling?",
@@ -183,9 +191,9 @@
             <p class="text-sm sm:text-base">
                 Step into a space of <b class="font-normal text-indigo-500"
                     >non-judgement, trust and empowerment</b
-                >, where together we will discover your path to healing. I will
-                assist you in recognising and developing your inherent
-                strengths, knowledge and self-awareness to
+                >, where together we will discover your path to healing. As your
+                therapist, I will assist you in recognising and developing your
+                inherent strengths, knowledge and self-awareness to
                 <b class="font-normal text-indigo-500">overcome challenges</b>
                 and
                 <b class="font-normal text-indigo-500">achieve your goals</b>.
@@ -320,11 +328,15 @@
                     }}
                     class="flex flex-col gap-4 sm:gap-6 p-4 border-l-[1.5px] duration-200 cursor-pointer group border-solid border-indigo-400"
                 >
-                    <h4 class="group-hover:pl-2 duration-200 sm:text-lg">
+                    <h4
+                        class="group-hover:pl-2 duration-200 sm:text-lg text-left"
+                    >
                         {question.question}
                     </h4>
                     {#if displayFAQ.includes(questionIndex)}
-                        <p class="text-slate-600 pl-2 text-sm sm:text-base">
+                        <p
+                            class="text-slate-600 pl-2 text-sm sm:text-base text-left"
+                        >
                             {question.answer}
                         </p>
                     {/if}
@@ -349,6 +361,9 @@
         <!-- <i class="fa-solid fa-envelopes-bulk mx-auto text-2xl" /> -->
 
         <ContactForm />
+        <div class="flex items-center ">
+            <p>Or cum touch me at beckybradleycounselling@gmail.com</p>
+        </div>
     </section>
 </main>
 
