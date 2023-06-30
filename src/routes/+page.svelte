@@ -84,17 +84,6 @@
         },
     ];
 </script>
-
-<svelte:head>
-    <title>Becky Bradley Counselling</title>
-    <meta name="robots" content="noindex nofollow" />
-    <meta
-        name="description"
-        content="Eating Disorder Counselling Develop a Healthy Relationship With Yourself, Food and Your Body Emotional and disordered eating (including anorexia and bulimia) can cause so much hurt, suffering and hopelessness. Coming to love yourself and your body is the key to happiness. With therapy you can heal from your disorder"
-    />
-    <html lang="en" />
-</svelte:head>
-
 <header
     bind:clientHeight={headerHeight}
     class={"duration-200 sticky top-0 relative border-b border-solid  " +
