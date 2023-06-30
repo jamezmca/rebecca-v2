@@ -50,7 +50,11 @@
         },
         {
             question: "What can I expect from the consultation call?",
-            answer: "The consultation call gives you an opportunity for you to ask any questions you might have, gain insights into my counselling approach, and ensure a good match between you and me. (Numerous academic studies on effective counselling consistently highlight the importance of the client-therapist relationship as a major factor in achieving success.) During our conversation, I'll share my counselling approach and give you a clear picture of what you can expect if you choose to work with me. Additionally, I will inquire about what has brought you to counselling and what you hope to achieve. From the call, my hope is that you will be able to make an informed decision about whether you would like to book a full session with me.",
+            answer: "Before meeting for a full session of counselling, I offer a consultation call for us to get to know each other a bit better. The consultation call gives you an opportunity for you to ask any questions you might have, discuss your counselling goals and determine whether we are a good fit. (Numerous academic studies on effective counselling consistently highlight the importance of the client-therapist relationship as a major factor in achieving success.) During our conversation, I'll share my counselling approach and give you a clear picture of what you can expect if you choose to work with me. Additionally, I will inquire about what has brought you to counselling and what you hope to get out of coming to therapy.",
+        },
+        {
+            question: "What can I gain from counselling?",
+            answer: "Speaking freely in a safe and truly non-judgemental atmosphere is designed to be therapeutic, and can enable you to face and embrace your truths.  While confiding in a friend or family member can be valuable, consulting with a qualified therapist provides distinct advantages. Therapists bring expertise, offering diverse perspectives and the necessary tools to tackle your specific challenges. We actively listen, ensuring an unbiased viewpoint and providing feedback. As you work with the right counsellor, you'll gradually develop comfort and confidence in the process. This growth allows for deeper exploration of emotions, leading to clarity in identifying and addressing problems. Counsellors often reframe situations, helping you uncover your own solutions. Many individuals report an array of valuable outcomes from the counselling process, a few include: healthier relationships with self and others, increased self-awareness, self-esteem and the adoption of positive coping strategies.",
         },
         {
             question: "What is your approach to therapy?",
@@ -67,10 +71,6 @@
         {
             question: "Do you provide in-person counselling?",
             answer: "I am currently only offering online counselling which takes place via a secure encrypted video calling platform.",
-        },
-        {
-            question: "What can I gain from counselling?",
-            answer: "Speaking freely in a safe and truly non-judgemental atmosphere is designed to be therapeutic, and can enable you to face and embrace your truths.  While confiding in a friend or family member can be valuable, consulting with a qualified therapist provides distinct advantages. Therapists bring expertise, offering diverse perspectives and the necessary tools to tackle your specific challenges. We actively listen, ensuring an unbiased viewpoint and providing feedback. As you work with the right counsellor, you'll gradually develop comfort and confidence in the process. This growth allows for deeper exploration of emotions, leading to clarity in identifying and addressing problems. Counsellors often reframe situations, helping you uncover your own solutions. Many individuals report an array of valuable outcomes from the counselling process, a few include: healthier relationships with self and others, increased self-awareness, self-esteem and the adoption of positive coping strategies.",
         },
         {
             question: "What is your cancellation policy?",
