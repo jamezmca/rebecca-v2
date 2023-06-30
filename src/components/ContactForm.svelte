@@ -2,10 +2,8 @@
     name="contact"
     method="POST"
     class="flex flex-col gap-4 max-w-[500px] w-full mx-auto text-slate-800 text-xs sm:text-sm"
-    data-netlify="true"
-    netlify-honeypot="bot-field"
+    action="https://formsubmit.co/beckybradleycounselling@gmail.com"
 >
-    <input type="hidden" name="form-name" value="contact" />
 
     <input
         name="name"
