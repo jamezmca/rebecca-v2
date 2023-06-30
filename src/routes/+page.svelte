@@ -257,9 +257,11 @@
             {#each [...keyWords].sort() as keyWord}
                 <div
                     class={" py-2 rounded text-xs sm:text-base px-3 z-10 relative flex items-center justify-center gap-2 text-white relative sm:flex-1 text-center " +
-                        ["bg-indigo-600", "bg-indigo-500", "bg-indigo-400"][
-                            Math.floor(Math.random() * 3)
-                        ]}
+                        (favorites.includes(keyWord)
+                            ? " bg-indigo-600"
+                            : ["bg-indigo-400", "bg-indigo-400"][
+                                  Math.floor(Math.random() * 2)
+                              ])}
                 >
                     {#if favorites.includes(keyWord)}
                         <i class="fa-solid fa-star" />
