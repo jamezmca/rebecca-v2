@@ -19,10 +19,10 @@
         "Loss & grief",
         "Life transitions",
         "Depression",
-        "Self-esteem & self-criticism",
         "Conflict",
         "Attachment issues",
-        "Compulsivity & addiction",
+        "Self-esteem & self-criticism",
+        "Personal growth ",
     ];
 
     const services = [
@@ -84,14 +84,20 @@
             question: "How many sessions does counselling take?",
             answer: "The number of counselling sessions varies for each individual and situation, as there is no set formula. We will collaboratively consider your unique circumstances when determining the frequency and duration of sessions. While acute issues or crises may require regular sessions for a shorter period, many clients transition to less frequent appointments, to sustain their mental health and well-being. This journey is highly personalised, and together we will create a tailored plan based on your goals, needs, and available resources.",
         },
-        {
-            question: "I have other questions for you, how can I reach you?",
-            answer: "If you have any further questions about anything at all, please contact me via my email at beckybradleycounselling@gmail.com, the contact form below, or book a free consultation call.",
-        },
+        // {
+        //     question: "I have other questions for you, how can I reach you?",
+        //     answer: "If you have any further questions about anything at all, please contact me via my email at beckybradleycounselling@gmail.com, the contact form below, or book a free consultation call.",
+        // },
         {
             question: "I’ve decided to come to therapy, now what?",
             answer: "You can email me at beckybradleycounselling@gmail.com or use the Book Now button to schedule a consultation or counselling session. I look forward to hearing from you!",
         },
+    ];
+
+    const favorites = [
+        "Eating disorders",
+        "Anxiety",
+        "Relationship difficulties",
     ];
 </script>
 
@@ -227,25 +233,31 @@
         <p
             class="text-sm sm:text-base max-w-[700px] mx-auto w-full text-center"
         >
-            I am a Counsellor based in Auckland, New Zealand. Having had the
+            I am a Counsellor based in Aotearoa (New Zealand) who is passionate
+            about helping individuals with their mental health. I hold a
+            Master’s degree in Counselling Psychology and specialise in anxiety,
+            eating disorders and relationship difficulties. Having had the
             privilege of growing up in six countries, I have a deep appreciation
             for diverse identities, cultures and backgrounds. When I'm not
             outdoors, playing board games or enjoying time with loved ones, I'm
             dedicated to making quality therapy accessible to all. Through my
             personal journey, I've witnessed firsthand the incredible impact
-            therapy can have. Join me on this empowering path towards positive
-            change. My areas of practice include:
+            therapy can have. Join me on this empowering path towards change. I
+            provide individual counselling for a variety of needs including:
         </p>
         <div
             class="flex items-center flex-wrap gap-2 sm:gap-4 max-w-[700px] mx-auto w-full justify-center"
         >
             {#each [...keyWords].sort() as keyWord}
                 <div
-                    class={" py-2 rounded text-xs sm:text-base px-3 text-white sm:flex-1 text-center " +
+                    class={" py-2 rounded text-xs sm:text-base px-3 flex items-center justify-center gap-2 text-white relative sm:flex-1 text-center " +
                         ["bg-indigo-600", "bg-indigo-500", "bg-indigo-400"][
                             Math.floor(Math.random() * 3)
                         ]}
                 >
+                    {#if favorites.includes(keyWord)}
+                        <i class="fa-solid fa-star" />
+                    {/if}
                     <p class="whitespace-nowrap">{keyWord}</p>
                 </div>
             {/each}
