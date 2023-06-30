@@ -1,4 +1,6 @@
 <script>
+    import ContactForm from "../components/ContactForm.svelte";
+
     let headerHeight;
     let y;
     let displayFAQ = [];
@@ -306,8 +308,7 @@
             class="flex flex-col gap-4 select-none max-w-[800px] mx-auto w-full"
         >
             {#each faq as question, questionIndex}
-                <div
-                    on:keypress={() => {}}
+                <button
                     on:click={() => {
                         if (displayFAQ.includes(questionIndex)) {
                             displayFAQ = displayFAQ.filter(
@@ -327,7 +328,7 @@
                             {question.answer}
                         </p>
                     {/if}
-                </div>
+                </button>
             {/each}
         </div>
     </section>
@@ -347,43 +348,7 @@
         </p>
         <!-- <i class="fa-solid fa-envelopes-bulk mx-auto text-2xl" /> -->
 
-        <form
-            name="contact"
-            method="POST"
-            class="flex flex-col gap-4 max-w-[500px] w-full mx-auto text-slate-800 text-xs sm:text-sm"
-            data-netlify="true"
-        >
-            <input
-                name="name"
-                type="text"
-                placeholder="Full Name"
-                class="outline-none focus:outline none bg-white p-2 rounded border-2 border-solid border-transparent hover:border-indigo-200 focus:border-indigo-200 duration-200"
-            />
-            <input
-                required
-                name="email"
-                type="email"
-                placeholder="Email Address"
-                class="outline-none focus:outline none bg-white p-2 rounded border-2 border-solid border-transparent hover:border-indigo-200 focus:border-indigo-200 duration-200"
-            />
-            <input
-                name="subject"
-                type="text"
-                placeholder="Subject"
-                class="outline-none focus:outline none bg-white p-2 rounded border-2 border-solid border-transparent hover:border-indigo-200 focus:border-indigo-200 duration-200"
-            />
-            <textarea
-                required
-                name="message"
-                placeholder="Your message"
-                class="outline-none focus:outline none bg-white p-2 rounded border-2 border-solid border-transparent hover:border-indigo-200 focus:border-indigo-200 duration-200 h-32 resize-none"
-            />
-            <button
-                type="submit"
-                class="border-white border-solid border-[1.5px] text-white px-4 py-2 rounded duration-200 hover:border-indigo-200"
-                >Submit</button
-            >
-        </form>
+        <ContactForm />
     </section>
 </main>
 
