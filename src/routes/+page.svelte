@@ -103,11 +103,11 @@
 
 <header
     bind:clientHeight={headerHeight}
-    class={"duration-200 sticky top-0 relative border-b border-solid  " +
+    class={"duration-200 sticky top-0 relative border-b border-solid z-20   " +
         (y > 0 ? "bg-white border-indigo-400 shadow" : " border-transparent")}
 >
     <div
-        class={"max-w-[1200px] mx-auto w-full flex items-center justify-between z-20 gap-4 duration-200 px-6 sm:px-8 " +
+        class={"max-w-[1200px] mx-auto w-full flex items-center justify-between gap-4 duration-200 px-6 sm:px-8 " +
             (y > 0 ? " py-4 sm:py-6 " : " py-6 sm:py-8  ")}
     >
         <!-- <h2
@@ -250,7 +250,7 @@
         >
             {#each [...keyWords].sort() as keyWord}
                 <div
-                    class={" py-2 rounded text-xs sm:text-base px-3 flex items-center justify-center gap-2 text-white relative sm:flex-1 text-center " +
+                    class={" py-2 rounded text-xs sm:text-base px-3 z-10 relative flex items-center justify-center gap-2 text-white relative sm:flex-1 text-center " +
                         ["bg-indigo-600", "bg-indigo-500", "bg-indigo-400"][
                             Math.floor(Math.random() * 3)
                         ]}
