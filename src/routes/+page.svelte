@@ -107,7 +107,7 @@
         (y > 0 ? "bg-white border-indigo-400 shadow" : " border-transparent")}
 >
     <div
-        class={"max-w-[1200px] mx-auto w-full flex items-center justify-between gap-4 duration-200 px-6 sm:px-8 " +
+        class={"max-w-[1200px] mx-auto w-full flex items-center justify-between z-20 gap-4 duration-200 px-6 sm:px-8 " +
             (y > 0 ? " py-4 sm:py-6 " : " py-6 sm:py-8  ")}
     >
         <!-- <h2
