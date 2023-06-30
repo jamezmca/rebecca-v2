@@ -361,7 +361,7 @@
         <!-- <i class="fa-solid fa-envelopes-bulk mx-auto text-2xl" /> -->
 
         <ContactForm />
-        <div class="flex items-center ">
+        <div class="flex items-center mx-auto">
             <p>Or get in touch at beckybradleycounselling@gmail.com</p>
         </div>
     </section>
