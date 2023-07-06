@@ -29,7 +29,7 @@
         {
             name: "consultation",
             content: "Book a free 15 minute phone consultation",
-            link: "#contact",
+            link: "https://beckybradleycounselling.janeapp.com",
         },
         {
             name: "counselling",
@@ -39,7 +39,7 @@
         {
             name: "location",
             content: "Sessions available online only",
-            link: "#faq",
+            link: "#FAQ",
         },
     ];
 
@@ -309,7 +309,7 @@
             {#each services as service}
                 <a
                     href={service.link}
-                    target={service.name === 'counselling' ? "_blank" : ''}
+                    target={service.name !== "location" ? "_blank" : ""}
                     class="p-2 sm:p-4 cursor-pointer flex-1 text-slate-800 rounded-lg bg-white specialShadow flex flex-col gap-2 sm:gap-4"
                 >
                     <div
