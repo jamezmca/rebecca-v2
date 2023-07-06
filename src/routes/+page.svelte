@@ -29,12 +29,18 @@
         {
             name: "consultation",
             content: "Book a free 15 minute phone consultation",
+            link: "#contact",
         },
         {
             name: "counselling",
             content: "50 or 75 minute individual counselling session",
+            link: "https://beckybradleycounselling.janeapp.com",
         },
-        { name: "location", content: "Sessions available online only" },
+        {
+            name: "location",
+            content: "Sessions available online only",
+            link: "#faq",
+        },
     ];
 
     const faq = [
@@ -301,7 +307,9 @@
             class="flex flex-col sm:flex-row gap-4 sm:gap-6 max-w-[1000px] mx-auto w-full"
         >
             {#each services as service}
-                <div
+                <a
+                    href={service.link}
+                    target={service.name === 'counselling' ? "_blank" : ''}
                     class="p-2 sm:p-4 cursor-pointer flex-1 text-slate-800 rounded-lg bg-white specialShadow flex flex-col gap-2 sm:gap-4"
                 >
                     <div
@@ -319,7 +327,7 @@
                     <div class="flex items-center flex-1 justify-center">
                         <p class="text-center">{service.content}</p>
                     </div>
-                </div>
+                </a>
             {/each}
         </div>
     </section>
