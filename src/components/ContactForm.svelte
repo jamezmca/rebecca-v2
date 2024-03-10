@@ -21,7 +21,7 @@
     <input
         name="subject"
         type="text"
-        placeholder="Subject"
+        placeholder="Phone Number"
         class="outline-none focus:outline none bg-white p-2 rounded border-2 border-solid border-transparent hover:border-indigo-200 focus:border-indigo-200 duration-200"
     />
     <textarea

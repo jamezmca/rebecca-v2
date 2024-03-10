@@ -4,6 +4,7 @@
     let headerHeight;
     let y;
     let displayFAQ = [];
+    let showTestimonial = 0;
     let showMenu = false;
 
     let navLinks = ["about", "services", "FAQ", "contact"];
@@ -14,7 +15,8 @@
         "Body image",
         "Trauma & PSTD",
         "Disordered eating",
-        "Exercise addiction",
+        "OCD",
+        // "Exercise addiction",
         // "Sexuality",
         "Loss & grief",
         "Life transitions",
@@ -33,7 +35,7 @@
         },
         {
             name: "counselling",
-            content: "50 or 75 minute individual counselling session",
+            content: "50 minute individual counselling session",
             link: "https://beckybradleycounselling.janeapp.com",
         },
         {
@@ -43,11 +45,20 @@
         },
     ];
 
+    let testimonials = [
+        `Working with Becky has helped me make tough decisions and become stronger in my self-awareness.  When I first started working with Becky, I was in the midst of huge changes in my life, transitioning to ending a long-term relationship and moving out on my own for the first time. I don't know how I would have handled all these big changes without her support and empathy. Throughout our time together, I can honestly say that I know myself so much better and am able to make tough decisions, put my needs first, and take care of myself. I also appreciate her flexibility and willingness to work with me on whatever I come into the session with. Whether I come in to talk about relationship issues or my eating disorder, either way, Becky is non-judgmental, empathetic, compassionate, and actively listens. I always leave our sessions feeling better than when we started. I feel heard and genuinely cared for. I have learned to be more assertive, outgoing, confident, self-aware, and ambitious from working with Becky. Currently, I am in another big transition, and I feel way less anxious and more confident navigating through it knowing that I am going to discuss it with Becky. I can’t thank her enough for how much growth I have had in my life since our work started together early in 2022. Now, I am looking forward to seeing what my future holds and confident that I will make the best of it.`,
+        `It is an absolute pleasure to work with Becky. I always feel so supported, heard and seen. Her approach is warm and kind and I feel safe to be my full self with her. I have found the work we have done together to be extremely helpful. Now seeing the anxiety and fear in a completely different light, I am able to offer a lot more compassion towards myself. I highly recommend working with Becky, she's wonderful!`,
+        `I've been working with Becky for a few months now. At the start of the year I found myself needing help with a few mental health issues, so of course I reached out to a few therapists and Becky contacted me the very next day (a Saturday) (and Becky was the only one to make contact), the personal phone call from Becky told me that this therapist was caring and loved what she did. We made a connection instantly. I felt comfortable with Becky from that first phone conversation. Our first few sessions were focused more on us getting to know each other and talking about my issues I wanted to tackle, again, I felt so comfortable and connected to Becky. We then started getting into what I needed. It takes a lot to talk openly about your life, issues, etc but with Becky I felt confident and relaxed which made the process so much easier. And believe me it was & is a process, but with Becky I trusted the process and journey we were embarking on and I've never looked back. I don't like to think where I'd be without Becky, the tools and care Becky has and is sharing with me to help me through my process is beyond outstanding, I am such a better person for my time with Becky, my marriage is stronger, I am a happier, healthier person, a more understanding person, I finally love myself for all that I am, and honestly, I couldn't have asked for better. Loving yourself is actually quite difficult, but thanks to Becky I do, which helps me better a person. I was a person that suppressed everything (for decades) it wasn't a healthy relationship I had with myself, which in turn I didn't have great relationships with others, by my word, working, trusting and having the right tools I am definitely on a better path than I was. I am still on this journey to healing and self love but I know I am with the right person. Becky is in this for the love of what she does, and it seriously shows through our time together. Thank you Becky, I appreciate you more than you will every realize.`,
+        `Becky is great at creating a comfortable and safe space to discuss any mental health issues and life challenges. Her skill in posing the right questions, allows me space to reflect and re-evaluate the ways I see and respond to situations. I’m learning a lot about myself and seeing benefits in my overall mental health and wellbeing. I find as a result that my relationships with others are more fulfilling and reciprocal.`,
+        `I had such an awesome experience having Becky as my therapist when I was going through an interesting transitional period in my relationship leading up to my wedding. From the first session, I felt heard, validated and definitely felt she would be a good fit for me. She helped me figure out what I wanted out of therapy and we achieved it in a way where I didn't feel anxious parting ways with her. I was able to come away from therapy with the tools necessary for me to function well and independently regardless of what I might go through in the future. When I started sessions with Becky I didn't exactly know how to deal with past trauma (that I didn't even realise I had or was affecting me) and now I feel I am a confident adult with a broader understanding of myself, how I react to things and situations, why I deal with them a certain way and how I can best work through them and move on through life. My anxiety is minimal now and I have Becky to thank for that. I love knowing that even though I've finished my sessions with her I can schedule a meeting with her if I ever feel I need to talk to someone and can see myself utilising that options when I begin transitioning into the next phase of my life if needed. In terms of connecting with her, I found her website and booking platform super easy and most of the time Becky would just pre book during our sessions and I would get simple emails and calendar events all automated so it was super seamless for me. I found her super flexible with any sessions I needed to chnge or move around and it made my life a lot easier admin wise. I highly recommend therapy in general but definitely as a therapist, I couldn't recommend Becky enough!`,
+        `I have had an incredibly positive experience with Becky. Becky consistently creates a safe and comfortable environment for me in counselling. She uses evidence based approaches while always being non-judgmental, compassionate, supportive and authentic. Her work and guidance has helped me navigate through my own mental health concerns, through tough situations, and uncertain times. Working with Becky unlocks moments of life changing self discovery for me. Becky understands that counselling looks different for everyone and is willing to find what respectively works for you. I genuinely highly recommend Becky to anyone seeking help or support with any topic.`,
+    ];
+
     const faq = [
         {
             question:
                 "What are your counselling qualifications and experience?",
-            answer: "I have an Undergraduate degree (BA) in Human Geography and Psychology from the University of British Columbia in Vancouver, Canada and a Master’s degree (MCP) in Counselling Psychology from Adler University in Vancouver, Canada. Prior to starting my private practice, I worked as a counsellor with the Looking Glass Foundation for Eating Disorders in Vancouver, Canada. I am committed to ongoing professional and personal development as a therapist. A few of my additional qualifications/trainings include: Introduction & Deepening - Internal Family Systems (Mind Beyond Institute), Internal Family Systems for Complex Trauma (PESI), CBT-E - Enhanced Cognitive Behavior Therapy (Centre for Research on Eating Disorders at Oxford), Temperament Based Therapy with Support for Anorexia Nervosa (TBT-S Institute), LivingWorks – safeTALK & Skillfully Responding to Distress – (The Crisis Intervention and Suicide Prevention Centre of British Columbia) and Trauma-Informed Practice – Level 1 Certificate.",
+            answer: "I have an Undergraduate degree (BA) in Human Geography and Psychology from the University of British Columbia in Vancouver, Canada and a Master’s degree in Counselling Psychology from Adler University in Vancouver, Canada. Prior to starting my private practice, I worked as a counsellor with the Looking Glass Foundation for Eating Disorders in Vancouver, Canada. I am committed to ongoing professional and personal development as a therapist. A few of my additional qualifications/trainings include: Introduction & Deepening - Internal Family Systems (Mind Beyond Institute), Internal Family Systems for Complex Trauma (PESI), CBT-E - Enhanced Cognitive Behavior Therapy (Centre for Research on Eating Disorders at Oxford), Temperament Based Therapy with Support for Anorexia Nervosa (TBT-S Institute), LivingWorks – safeTALK & Skillfully Responding to Distress – (The Crisis Intervention and Suicide Prevention Centre of British Columbia) and Trauma-Informed Practice – Level 1 Certificate.",
         },
         {
             question:
@@ -60,7 +71,7 @@
         },
         {
             question: "What can I gain from counselling?",
-            answer: "Speaking freely in a safe and truly non-judgemental atmosphere is designed to be therapeutic, and can enable you to face and embrace your truths.  While confiding in a friend or family member can be valuable, consulting with a qualified therapist provides distinct advantages. Therapists bring expertise, offering diverse perspectives and the necessary tools to tackle your specific challenges. We actively listen, ensuring an unbiased viewpoint and providing feedback. As you work with the right counsellor, you'll gradually develop comfort and confidence in the process. This growth allows for deeper exploration of emotions, leading to clarity in identifying and addressing problems. Counsellors often reframe situations, helping you uncover your own solutions. Many individuals report an array of valuable outcomes from the counselling process, a few include: healthier relationships with self and others, increased self-awareness, self-esteem and the adoption of positive coping strategies.",
+            answer: "Speaking freely in a safe and truly non-judgemental atmosphere is designed to be therapeutic, and can enable you to face and embrace your truths. While confiding in a friend or family member can be valuable, meeting with a qualified therapist provides distinct advantages. Therapists offer diverse perspectives and an array of tools to help tackle your specific challenges. Therapists aim to be both non-judgmental and empathetic in their listening and help clients understand how their experiences may be driving certain behaviours, thoughts or feelings. As you work with the right counsellor, you'll gradually develop comfort and confidence in the process. This growth allows for deeper exploration of emotions, leading to clarity in identifying and addressing problems. Many individuals report an array of valuable outcomes from the counselling process, a few include: healthier relationships with self and others, increased self-awareness, self-esteem and the adoption of positive coping strategies.",
         },
         {
             question: "What is your approach to therapy?",
@@ -88,7 +99,7 @@
         // },
         {
             question: "How many sessions does counselling take?",
-            answer: "The number of counselling sessions varies for each individual and situation, as there is no set formula. We will collaboratively consider your unique circumstances when determining the frequency and duration of sessions. While acute issues or crises may require regular sessions for a shorter period, many clients transition to less frequent appointments, to sustain their mental health and well-being. This journey is highly personalised, and together we will create a tailored plan based on your goals, needs, and available resources.",
+            answer: "The number of counselling sessions varies for each individual and situation, as there is no set formula. We will collaboratively consider your unique circumstances when determining the frequency and duration of sessions. While acute issues or crises may require regular sessions for a shorter period, many clients transition to less frequent appointments, to sustain their mental health and well-being. This journey is highly personalised, and together we will discuss a plan based on your goals, needs, and available resources.",
         },
         // {
         //     question: "I have other questions for you, how can I reach you?",
@@ -96,7 +107,7 @@
         // },
         {
             question: "I’ve decided to come to therapy, now what?",
-            answer: "You can email me at beckybradleycounselling@gmail.com or use the Book Now button to schedule a consultation or counselling session. I look forward to hearing from you!",
+            answer: "You can email me at beckybradleycounselling@gmail.com, send me a message with the contact form below or use the Book Now button to schedule a consultation session. I look forward to hearing from you!",
         },
     ];
 
@@ -249,12 +260,12 @@
                 backgrounds.
             </p>
             <p class="">
-                When I'm not outdoors, playing board games or enjoying time with
-                loved ones, I'm dedicated to making quality therapy accessible
-                to all. Through my personal journey, I've witnessed firsthand
-                the incredible impact therapy can have. Join me on this
-                empowering path towards change. I provide individual counselling
-                for a variety of needs including:
+                When I'm not outdoors, running, playing board games or enjoying
+                time with loved ones, I'm dedicated to making quality therapy
+                accessible to all. Through my personal journey, I've witnessed
+                firsthand the incredible impact therapy can have. Join me on
+                this empowering path towards change. I provide individual
+                counselling for a variety of needs including:
             </p>
         </div>
         <div
@@ -340,6 +351,13 @@
         >
             FAQ
         </h1>
+        <p
+            class="text-sm sm:text-base max-w-[700px] mx-auto w-full text-center"
+        >
+            <b>Please note </b> that I am unable to provide crisis or emergency support.
+            If you require urgent care, please contact your local emergency service
+            or crisis line.
+        </p>
         <div
             class="flex flex-col gap-4 select-none max-w-[800px] mx-auto w-full"
         >
@@ -348,7 +366,7 @@
                     on:click={() => {
                         if (displayFAQ.includes(questionIndex)) {
                             displayFAQ = displayFAQ.filter(
-                                (val, valIndex) => val !== questionIndex
+                                (val, valIndex) => val !== questionIndex,
                             );
                             return;
                         }
@@ -370,6 +388,33 @@
                     {/if}
                 </button>
             {/each}
+        </div>
+    </section>
+    <section
+        id="testimonials"
+        class="flex flex-col gap-8 sm:gap-10 md:gap-14 py-14 sm:py-20 bg-white px-6 sm:px-8 -mb-10"
+    >
+        <p
+            class="text-4xl sm:text-5xl md:text-6xl text-indigo-400 font-semibold text max-w-[700px] mx-auto w-full text-center"
+        >
+            See what people are saying!
+        </p>
+        <div class="flex flex-col gap-4 sm:gap-8">
+            <p class="text-slate-600 italic max-w-[1200px] w-full mx-auto font-light text-justify">
+                {testimonials[showTestimonial]}
+            </p>
+            <div class="flex items-center mx-auto gap-2">
+                {#each testimonials as item, itemIndex}
+                    <button
+                        on:click={() => (showTestimonial = itemIndex)}
+                        class={"w-3 sm:w-3.5 rounded-full aspect-square border border-2 border-indigo-400  duration-200 " +
+                            (itemIndex === showTestimonial
+                                ? "bg-indigo-400"
+                                : "hover:bg-indigo-400")}
+                    >
+                    </button>
+                {/each}
+            </div>
         </div>
     </section>
     <section
