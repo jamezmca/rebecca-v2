@@ -61,6 +61,10 @@
             answer: "I have an Undergraduate degree (BA) in Human Geography and Psychology from the University of British Columbia in Vancouver, Canada and a Master’s degree in Counselling Psychology from Adler University in Vancouver, Canada. Prior to starting my private practice, I worked as a counsellor with the Looking Glass Foundation for Eating Disorders in Vancouver, Canada. I am committed to ongoing professional and personal development as a therapist. A few of my additional qualifications/trainings include: Introduction & Deepening - Internal Family Systems (Mind Beyond Institute), Internal Family Systems for Complex Trauma (PESI), CBT-E - Enhanced Cognitive Behavior Therapy (Centre for Research on Eating Disorders at Oxford), Temperament Based Therapy with Support for Anorexia Nervosa (TBT-S Institute), LivingWorks – safeTALK & Skillfully Responding to Distress – (The Crisis Intervention and Suicide Prevention Centre of British Columbia) and Trauma-Informed Practice – Level 1 Certificate.",
         },
         {
+            question: "Are you a Registered Counsellor in New Zealand?",
+            answer: "Yes, I am a Registered Counsellor with the New Zealand Association of Counsellors.",
+        },
+        {
             question:
                 "It is my first time coming to counselling, what if I am nervous and don’t know what to talk about?",
             answer: "It is completely normal and very common to feel nervous about a first counselling session. I like to remind my clients that they are in the driver seat, and as a counsellor, I am in the passenger seat, meaning that there are no obligations, and I will go at your own pace. As a counsellor, it is my role to ask the right questions, even if you're uncertain about what specifically is bothering you. During a first counselling session, we will review informed consent and I will ask a variety of questions that will provide some guidance. Any questions you may have can be answered at this time, or at any point throughout counselling. Building a strong therapeutic relationship is vital for successful therapy, and I understand that different clients have different preferences. Some clients prefer uninterrupted self-expression, while others appreciate more structure or guidance. Your session will be tailored to your preferences and what makes you comfortable. Ultimately, in the first session, I want to help you feel as comfortable as possible and get to know you better!",
@@ -251,13 +255,13 @@
             class="flex flex-col gap-4 text-sm sm:text-base max-w-[700px] mx-auto w-full text-center sm:text-justify"
         >
             <p class="">
-                I am a Counsellor based in Aotearoa (New Zealand) who is
-                passionate about helping individuals with their mental health. I
-                hold a Master’s degree in Counselling Psychology and specialise
-                in anxiety, eating disorders and relationship difficulties.
-                Having had the privilege of growing up in six countries, I have
-                a deep appreciation for diverse identities, cultures and
-                backgrounds.
+                I am a Registered Counsellor with the New Zealand Association of
+                Counsellors based in Aotearoa (New Zealand), who is passionate
+                about helping individuals with their mental health. I hold a
+                Master’s degree in Counselling Psychology and specialise in
+                anxiety, eating disorders and relationship difficulties. Having
+                had the privilege of growing up in six countries, I have a deep
+                appreciation for diverse identities, cultures and backgrounds.
             </p>
             <p class="">
                 When I'm not outdoors, running, playing board games or enjoying
@@ -400,7 +404,9 @@
             See what people are saying!
         </p>
         <div class="flex flex-col gap-4 sm:gap-8">
-            <p class="text-slate-600 italic max-w-[1200px] w-full mx-auto font-light text-justify">
+            <p
+                class="text-slate-600 italic max-w-[1200px] w-full mx-auto font-light text-justify"
+            >
                 {testimonials[showTestimonial]}
             </p>
             <div class="flex items-center mx-auto gap-2">
