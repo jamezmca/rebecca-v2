@@ -235,7 +235,11 @@
         <div
             class="flex max-w-[60vw] sm:max-w-[50vw] md:max-w-[40vw] mx-auto w-full flex-col md:flex-1 lg:justify-center lg:items-center"
         >
-            <img src="/profile2.png" alt="profile-img" />
+            <img
+                src="/profile3.jpeg"
+                alt="profile-img"
+                class="rounded-full object-cover aspect-square shadow-xl"
+            />
         </div>
     </section>
     <section
