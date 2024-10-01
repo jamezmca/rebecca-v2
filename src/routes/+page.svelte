@@ -83,7 +83,7 @@
         },
         {
             question: "How much does a counselling session cost?",
-            answer: "$165.00 NZD (GST INCL.) for a 50 minute counselling session.",
+            answer: "$180.00 NZD (GST INCL.) for a 50 minute counselling session.",
         },
         {
             question: "Do you offer sliding scale therapy?",
