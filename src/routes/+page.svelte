@@ -439,13 +439,16 @@
         <p
             class="text-sm sm:text-base max-w-[700px] mx-auto w-full text-center"
         >
-            For any questions, qualms or queries you may have!
+            For any questions, qualms or queries you may have, please send me an email here:
         </p>
         <!-- <i class="fa-solid fa-envelopes-bulk mx-auto text-2xl" /> -->
 
-        <ContactForm />
+        <!-- <ContactForm /> -->
         <div class="flex items-center mx-auto">
-            <p>Or get in touch at beckybradleycounselling@gmail.com</p>
+            <!-- <p>
+                Send me an email @<br /><br /> beckybradleycounselling@gmail.com
+            </p> -->
+            <h5 class="text-md sm:text-lg md:text-xl">beckybradleycounselling@gmail.com</h5>
         </div>
     </section>
 </main>
