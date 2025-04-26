@@ -7,24 +7,28 @@
     let showTestimonial = 0;
     let showMenu = false;
 
-    let navLinks = ["about", "services", "FAQ", "contact"];
+    let navLinks = ["about", "services", "FAQS", "contact"];
     const keyWords = [
         "Anxiety",
-        "Eating disorders",
         "Relationship difficulties",
         "Body image",
-        "Trauma & PSTD",
+        "Cross-cultural stressors",
+        "Trauma",
         "Disordered eating",
-        "OCD",
+        "Obsessive Compulsive Disorder (OCD)",
         // "Exercise addiction",
         // "Sexuality",
-        "Loss & grief",
         "Life transitions",
-        "Depression",
-        "Conflict",
-        "Attachment issues",
-        "Self-esteem & self-criticism",
+        "Identity exploration",
+        "Third Culture Kid experiences",
+        "Attachment wounds",
         "Personal growth ",
+    ];
+
+    const favorites = [
+        "Disordered eating",
+        "Anxiety",
+        "Obsessive Compulsive Disorder (OCD)",
     ];
 
     const services = [
@@ -38,17 +42,12 @@
             content: "50 minute individual counselling session",
             link: "https://beckybradleycounselling.janeapp.com",
         },
-        {
-            name: "location",
-            content: "Sessions available online only",
-            link: "#FAQ",
-        },
     ];
 
     let testimonials = [
         `Working with Becky has helped me make tough decisions and become stronger in my self-awareness.  When I first started working with Becky, I was in the midst of huge changes in my life, transitioning to ending a long-term relationship and moving out on my own for the first time. I don't know how I would have handled all these big changes without her support and empathy. Throughout our time together, I can honestly say that I know myself so much better and am able to make tough decisions, put my needs first, and take care of myself. I also appreciate her flexibility and willingness to work with me on whatever I come into the session with. Whether I come in to talk about relationship issues or my eating disorder, either way, Becky is non-judgmental, empathetic, compassionate, and actively listens. I always leave our sessions feeling better than when we started. I feel heard and genuinely cared for. I have learned to be more assertive, outgoing, confident, self-aware, and ambitious from working with Becky. Currently, I am in another big transition, and I feel way less anxious and more confident navigating through it knowing that I am going to discuss it with Becky. I can’t thank her enough for how much growth I have had in my life since our work started together early in 2022. Now, I am looking forward to seeing what my future holds and confident that I will make the best of it.`,
         `It is an absolute pleasure to work with Becky. I always feel so supported, heard and seen. Her approach is warm and kind and I feel safe to be my full self with her. I have found the work we have done together to be extremely helpful. Now seeing the anxiety and fear in a completely different light, I am able to offer a lot more compassion towards myself. I highly recommend working with Becky, she's wonderful!`,
-        `I've been working with Becky for a few months now. At the start of the year I found myself needing help with a few mental health issues, so of course I reached out to a few therapists and Becky contacted me the very next day (a Saturday) (and Becky was the only one to make contact), the personal phone call from Becky told me that this therapist was caring and loved what she did. We made a connection instantly. I felt comfortable with Becky from that first phone conversation. Our first few sessions were focused more on us getting to know each other and talking about my issues I wanted to tackle, again, I felt so comfortable and connected to Becky. We then started getting into what I needed. It takes a lot to talk openly about your life, issues, etc but with Becky I felt confident and relaxed which made the process so much easier. And believe me it was & is a process, but with Becky I trusted the process and journey we were embarking on and I've never looked back. I don't like to think where I'd be without Becky, the tools and care Becky has and is sharing with me to help me through my process is beyond outstanding, I am such a better person for my time with Becky, my marriage is stronger, I am a happier, healthier person, a more understanding person, I finally love myself for all that I am, and honestly, I couldn't have asked for better. Loving yourself is actually quite difficult, but thanks to Becky I do, which helps me better a person. I was a person that suppressed everything (for decades) it wasn't a healthy relationship I had with myself, which in turn I didn't have great relationships with others, by my word, working, trusting and having the right tools I am definitely on a better path than I was. I am still on this journey to healing and self love but I know I am with the right person. Becky is in this for the love of what she does, and it seriously shows through our time together. Thank you Becky, I appreciate you more than you will every realize.`,
+        `I felt comfortable with Becky from the first phone conversation. Our first few sessions were focused more on us getting to know each other and talking about my issues I wanted to tackle, again, I felt so comfortable and connected to Becky. We then started getting into what I needed. It takes a lot to talk openly about your life, issues, etc but with Becky I felt confident and relaxed which made the process so much easier. And believe me it was & is a process, but with Becky I trusted the process and journey we were embarking on and I've never looked back. I don't like to think where I'd be without Becky, the tools and care Becky has and is sharing with me to help me through my process is beyond outstanding, I am such a better person for my time with Becky, my marriage is stronger, I am a happier, healthier person, a more understanding person, I finally love myself for all that I am, and honestly, I couldn't have asked for better. Loving yourself is actually quite difficult, but thanks to Becky I do, which helps me better a person. I was a person that suppressed everything (for decades) it wasn't a healthy relationship I had with myself, which in turn I didn't have great relationships with others, by my word, working, trusting and having the right tools I am definitely on a better path than I was. I am still on this journey to healing and self love but I know I am with the right person. Becky is in this for the love of what she does, and it seriously shows through our time together. Thank you Becky, I appreciate you more than you will every realize.`,
         `Becky is great at creating a comfortable and safe space to discuss any mental health issues and life challenges. Her skill in posing the right questions, allows me space to reflect and re-evaluate the ways I see and respond to situations. I’m learning a lot about myself and seeing benefits in my overall mental health and wellbeing. I find as a result that my relationships with others are more fulfilling and reciprocal.`,
         `I had such an awesome experience having Becky as my therapist when I was going through an interesting transitional period in my relationship leading up to my wedding. From the first session, I felt heard, validated and definitely felt she would be a good fit for me. She helped me figure out what I wanted out of therapy and we achieved it in a way where I didn't feel anxious parting ways with her. I was able to come away from therapy with the tools necessary for me to function well and independently regardless of what I might go through in the future. When I started sessions with Becky I didn't exactly know how to deal with past trauma (that I didn't even realise I had or was affecting me) and now I feel I am a confident adult with a broader understanding of myself, how I react to things and situations, why I deal with them a certain way and how I can best work through them and move on through life. My anxiety is minimal now and I have Becky to thank for that. I love knowing that even though I've finished my sessions with her I can schedule a meeting with her if I ever feel I need to talk to someone and can see myself utilising that options when I begin transitioning into the next phase of my life if needed. In terms of connecting with her, I found her website and booking platform super easy and most of the time Becky would just pre book during our sessions and I would get simple emails and calendar events all automated so it was super seamless for me. I found her super flexible with any sessions I needed to chnge or move around and it made my life a lot easier admin wise. I highly recommend therapy in general but definitely as a therapist, I couldn't recommend Becky enough!`,
         `I have had an incredibly positive experience with Becky. Becky consistently creates a safe and comfortable environment for me in counselling. She uses evidence based approaches while always being non-judgmental, compassionate, supportive and authentic. Her work and guidance has helped me navigate through my own mental health concerns, through tough situations, and uncertain times. Working with Becky unlocks moments of life changing self discovery for me. Becky understands that counselling looks different for everyone and is willing to find what respectively works for you. I genuinely highly recommend Becky to anyone seeking help or support with any topic.`,
@@ -58,7 +57,7 @@
         {
             question:
                 "What are your counselling qualifications and experience?",
-            answer: "I have an Undergraduate degree (BA) in Human Geography and Psychology from the University of British Columbia in Vancouver, Canada and a Master’s degree in Counselling Psychology from Adler University in Vancouver, Canada. Prior to starting my private practice, I worked as a counsellor with the Looking Glass Foundation for Eating Disorders in Vancouver, Canada. I am committed to ongoing professional and personal development as a therapist. A few of my additional qualifications/trainings include: Introduction & Deepening - Internal Family Systems (Mind Beyond Institute), Internal Family Systems for Complex Trauma (PESI), CBT-E - Enhanced Cognitive Behavior Therapy (Centre for Research on Eating Disorders at Oxford), Temperament Based Therapy with Support for Anorexia Nervosa (TBT-S Institute), LivingWorks – safeTALK & Skillfully Responding to Distress – (The Crisis Intervention and Suicide Prevention Centre of British Columbia) and Trauma-Informed Practice – Level 1 Certificate.",
+            answer: "I have an Undergraduate degree (BA) in Human Geography and Psychology from the University of British Columbia in Vancouver, Canada and a Master’s degree (MCP) in Counselling Psychology from Adler University in Vancouver, Canada. Prior to starting my private practice, I worked as a counsellor with the Looking Glass Foundation for Eating Disorders in Vancouver, Canada. I am committed to ongoing professional and personal development as a therapist. A few of my additional qualifications/trainings include: Internal Family Systems Level 1 (IFS Institute), Acceptance and Commitment Therapy & Exposure Response Prevention for OCD (ACT Wellington), Internal Family Systems and Somatic Embodiment (Concinnity Group), Introduction & Deepening - Internal Family Systems (Mind Beyond Institute), Internal Family Systems for Complex Trauma (PESI), CBT-E - Enhanced Cognitive Behaviour Therapy (CREDO), Temperament Based Therapy with Support for Anorexia Nervosa (TBT-S Institute), LivingWorks - safeTALK & Skillfully Responding to Distress - (The Crisis Intervention and Suicide Prevention Centre of British Columbia) and Trauma-Informed Practice - Level 1 Certificate.",
         },
         {
             question: "Are you a Registered Counsellor in New Zealand?",
@@ -79,7 +78,11 @@
         },
         {
             question: "What is your approach to therapy?",
-            answer: "My approach is rooted in a variety of evidence-based modalities, including attachment-based therapy, emotion-focused therapy, internal family systems, person-centered therapy and trauma-informed care. I tailor my therapy approach to each client based on their unique needs, experiences and goals.  I actively encourage clients to voice their questions, concerns and provide feedback throughout the therapeutic process in order to meet their goals and needs. Part of my job is to help clients develop a deeper understanding of themselves, their relationships, and their experiences, and to provide them with the tools and strategies they need to achieve their goals and live more fulfilling lives.",
+            answer: "My approach to therapy is centred around Internal Family Systems (IFS), a gentle and deeply respectful method that helps you understand and connect with the different parts of yourself. IFS is based on the idea that we are made up of many parts—such as feelings, body sensations, and thoughts—and each part has its own story and role within your system, often shaped by past experiences. These parts are not signs of dysfunction, but rather adaptive responses that have developed to help you cope with life's challenges. Sometimes, however, these parts may show up in ways that feel unhelpful or are no longer serving you well in the present. Together, we can explore these patterns and work towards healing and integration, so you can live more fully and authentically. Some parts may be critical or controlling, while others hold pain, fear, or shame. IFS creates space for these parts to be seen, heard, and understood, without judgment. At the heart of this work is the belief that everyone has a core Self—a wise, compassionate presence capable of healing and leading the system with clarity and care. While IFS is central to my practice, I also draw from other evidence-based practices like Cognitive Behavioural Therapy - Enhanced (specific for eating disorders) and Exposure Response Prevention (for obsessive-compulsive disorder). I also use attachment-based, person-centred, and trauma-informed approaches to create a supportive, attuned therapeutic relationship. My role is to walk alongside you, tailoring the process to your pace, and inviting feedback and collaboration at every step.",
+        },
+        {
+            question: "What is Internal Family Systems (IFS) therapy?",
+            answer: "IFS therapy is a method that helps us explore and understand the various aspects of our inner world - the different parts of our personality and the many ways we think, feel, and act. By getting to know these parts of ourselves, we can create a more harmonious inner system, where these parts work together rather than in opposition. This process can lead to: greater clarity and connection to our own inner wisdom and resources & increased self-awareness, self-compassion, and internal integration. Through this approach, we also have the opportunity to: heal parts of ourselves that hold memories of overwhelming or traumatic experiences, as well as cultural or community-related legacies & release the protective mechanisms that keep us stuck, allowing us to embrace new, healthier ways of being. IFS can foster transformative change, helping us to: feel lighter and move through life with greater ease and clarity & respond to challenging situations and people in ways that align with our true desires and values & cultivate a greater sense of acceptance, connection, and compassion for ourselves and others.",
         },
         {
             question: "How much does a counselling session cost?",
@@ -88,10 +91,6 @@
         {
             question: "Do you offer sliding scale therapy?",
             answer: "I offer a limited number of sliding scale rates for those facing financial barriers in accessing therapy. At this time, all of my sliding scale rates are currently full.",
-        },
-        {
-            question: "Do you provide in-person counselling?",
-            answer: "I am currently only offering online counselling which takes place via a secure encrypted video calling platform.",
         },
         {
             question: "What is your cancellation policy?",
@@ -103,7 +102,7 @@
         // },
         {
             question: "How many sessions does counselling take?",
-            answer: "The number of counselling sessions varies for each individual and situation, as there is no set formula. We will collaboratively consider your unique circumstances when determining the frequency and duration of sessions. While acute issues or crises may require regular sessions for a shorter period, many clients transition to less frequent appointments, to sustain their mental health and well-being. This journey is highly personalised, and together we will discuss a plan based on your goals, needs, and available resources.",
+            answer: "The number of counselling sessions varies depending on your unique needs and the complexity of the issues you're working through. In therapy, healing often takes time, and for those addressing long-standing concerns, the process can be longer-term. Together, we will create a plan tailored to your personal goals, needs, and the pace that feels right for you. Initially, meeting on a weekly or bi-weekly basis is generally recommended, and over time, you may find that less frequent appointments help sustain your progress and long-term well-being. This journey is deeply personal, and we will adjust as needed to ensure you receive the support you need at every step.",
         },
         // {
         //     question: "I have other questions for you, how can I reach you?",
@@ -111,21 +110,15 @@
         // },
         {
             question: "I’ve decided to come to therapy, now what?",
-            answer: "You can email me at beckybradleycounselling@gmail.com, send me a message with the contact form below or use the Book Now button to schedule a consultation session. I look forward to hearing from you!",
+            answer: "You can email me at beckybradleycounselling@gmail.com or use the Book Now button to schedule a consultation session. I look forward to hearing from you!",
         },
-    ];
-
-    const favorites = [
-        "Eating disorders",
-        "Anxiety",
-        "Relationship difficulties",
     ];
 </script>
 
 <header
     bind:clientHeight={headerHeight}
     class={"duration-200 sticky top-0 relative border-b border-solid z-20   " +
-        (y > 0 ? "bg-white border-indigo-400 shadow" : " border-transparent")}
+        (y > 0 ? "bg-white " : " border-transparent")}
 >
     <div
         class={"max-w-[1200px] mx-auto w-full flex items-center justify-between gap-4 duration-200 px-6 sm:px-8 " +
@@ -215,15 +208,21 @@
                 <b class="text-indigo-400">healing</b> and
                 <b class="text-indigo-400">growth</b>
             </h1>
-            <p class="text-sm sm:text-base">
+            <p class="text-sm sm:text-base text-justify">
                 Step into a space of <b class="font-normal text-indigo-500"
                     >non-judgement, trust and empowerment</b
-                >, where together we will discover your path to healing. As your
-                therapist, I will assist you in recognising and developing your
-                inherent strengths, knowledge and self-awareness to
-                <b class="font-normal text-indigo-500">overcome challenges</b>
-                and
-                <b class="font-normal text-indigo-500">achieve your goals</b>.
+                >, where all parts of you are welcome. Together, we will explore
+                the different
+                <b class="font-normal text-indigo-500"
+                    >parts of your inner world</b
+                >
+                - especially those that feel stuck, overwhelmed, or protective. I
+                will support you in developing a deeper understanding of yourself,
+                so you can make meaningful changes in your life and move through
+                challenges with more
+                <b class="font-normal text-indigo-500"
+                    >clarity, confidence, and compassion</b
+                >.
             </p>
             <a
                 href="https://beckybradleycounselling.janeapp.com"
@@ -249,42 +248,99 @@
         <p class="font-semibold text-lg sm:text-xl md:text-3xl mx-auto">
             A bit about me
         </p>
-        <h1
+        <h2
+            class="text-4xl sm:text-5xl md:text-6xl -mt-4 font-semibold max-w-[700px] mx-auto w-full text-center"
+        >
+            <b class="text-indigo-400"></b>Registered counsellor and
+            <b class="text-indigo-400">IFS therapist</b>
+        </h2>
+        <!-- <h1
             class="text-4xl sm:text-5xl md:text-6xl -mt-4 font-semibold max-w-[700px] mx-auto w-full text-center"
         >
             Experienced in <b class="text-indigo-400">helping</b> you feel your
             <b class="text-indigo-400">best</b>
-        </h1>
+        </h1> -->
         <div
-            class="flex flex-col gap-4 text-sm sm:text-base max-w-[700px] mx-auto w-full text-center sm:text-justify"
+            class="flex flex-col gap-4 text-sm sm:text-base max-w-[700px] mx-auto w-full text-center text-justify"
         >
-            <p class="">
-                I am a Registered Counsellor with the New Zealand Association of
-                Counsellors based in Aotearoa (New Zealand), who is passionate
-                about helping individuals with their mental health. I hold a
-                Master’s degree in Counselling Psychology and specialise in
-                anxiety, eating disorders and relationship difficulties. Having
-                had the privilege of growing up in six countries, I have a deep
-                appreciation for diverse identities, cultures and backgrounds.
+            <p>
+                Kia ora, my name is Becky (she/her). I am a Registered
+                Counsellor and Internal Family Systems (IFS) Therapist based in
+                Takapuna, Auckland, offering individual therapy for adults (18+)
+                both in person and online. I am passionate about supporting
+                people with their mental health, having witnessed firsthand the
+                profound impact therapy can have.
             </p>
-            <p class="">
-                When I'm not outdoors, running, playing board games or enjoying
-                time with loved ones, I'm dedicated to making quality therapy
-                accessible to all. Through my personal journey, I've witnessed
-                firsthand the incredible impact therapy can have. Join me on
-                this empowering path towards change. I provide individual
-                counselling for a variety of needs including:
+            <p>
+                I hold a Master’s degree in Counselling Psychology and have a
+                particular interest in working with anxiety, disordered
+                eating/eating disorders, and obsessive-compulsive disorder
+                (OCD). I am also deeply committed to supporting immigrants and
+                individuals who have grown up cross-culturally and may be
+                navigating questions of identity and belonging.
+            </p>
+            <p>
+                As a Third Culture Kid (TCK) - someone who spends a significant
+                part of their developmental years in cultures different from
+                their parents’ - I understand these experiences personally.
+                While my parents are from the UK, I grew up in Tanzania, Saudi
+                Arabia, Peru, Thailand, and Canada, and now call beautiful
+                Aotearoa home. The question “Where are you from?” has always
+                been a complex one for me - rather than identifying with a
+                single culture, I see myself as a blend of the traditions,
+                values, and experiences I have gathered from around the world.
+                This upbringing gives me a deep appreciation for diverse
+                identities, cultures, and life stories.
+            </p>
+            <p>
+                Outside of my work, I enjoy travelling, being in nature, playing
+                board games (my current favourite is Wingspan), running, playing
+                tennis and touch rugby, binge-watching a good TV series, and
+                spending time with loved ones.
             </p>
         </div>
+
+        <a
+            href="#FAQS"
+            class=" px-4 py-2 rounded-lg bg-white border-[1.5px] border-solid duration-200 cursor-pointer hover:border-indigo-200 mx-auto border-indigo-400 text-indigo-500 text-sm -my-4"
+            >Learn more</a
+        >
+    </section>
+    <section
+        id="services"
+        class="flex flex-col gap-8 sm:gap-10 md:gap-14 py-14 sm:py-20 text-white bg-indigo-400 px-6 sm:px-8"
+    >
+        <p class="font-semibold text-lg sm:text-xl md:text-3xl mx-auto">
+            Areas of practice and services
+        </p>
+        <h1
+            class="text-4xl sm:text-5xl md:text-6xl -mt-4 font-semibold max-w-[700px] mx-auto w-full text-center"
+        >
+            Here's how I can help
+        </h1>
+        <p
+            class="text-sm sm:text-base max-w-[700px] mx-auto w-full text-center text-justify"
+        >
+            I will work collaboratively with you using tailored therapeutic
+            approaches that meet you where you are. With empathy and curiosity,
+            we will explore the different parts of your inner world, creating a
+            safe and supportive space to better understand your emotions,
+            thoughts, and patterns. This process can foster a more compassionate
+            and connected relationship with yourself. While my clinical training
+            specifically focused on disordered eating and eating disorders, I
+            have since trained in treating obsessive-compulsive disorder (OCD),
+            including lesser-known subtypes. I offer individual counselling for
+            a variety of needs, including but not limited to:
+        </p>
         <div
             class="flex items-center flex-wrap gap-2 sm:gap-4 max-w-[700px] mx-auto w-full justify-center"
         >
             {#each [...keyWords].sort() as keyWord}
                 <div
-                    class={" py-2 rounded text-xs sm:text-base px-3 z-10 relative flex items-center justify-center gap-2 text-white relative sm:flex-1 text-center " +
+                    class={" py-2 rounded text-xs sm:text-base px-3 z-10 relative flex items-center justify-center gap-2 text-indigo-600 relative sm:flex-1 text-center flex-1 " +
                         (favorites.includes(keyWord)
-                            ? " bg-indigo-600"
-                            : ["bg-indigo-400", "bg-indigo-400"][
+                            ? " bg-indigo-50"
+                            : ["bg-indigo-100", "bg-indigo-100"][
                                   Math.floor(Math.random() * 2)
                               ])}
                 >
@@ -295,76 +351,61 @@
                 </div>
             {/each}
         </div>
-        <a
-            href="#FAQ"
-            class=" px-4 py-2 rounded-lg bg-white border-[1.5px] border-solid duration-200 cursor-pointer hover:border-indigo-200 mx-auto border-indigo-400 text-indigo-500 text-sm -my-4"
-            >Learn more</a
-        >
-    </section>
-    <section
-        id="services"
-        class="flex flex-col gap-8 sm:gap-10 md:gap-14 py-14 sm:py-20 text-white bg-indigo-400 px-6 sm:px-8"
-    >
-        <p class="font-semibold text-lg sm:text-xl md:text-3xl mx-auto">
-            Services I offer
-        </p>
-        <h1
-            class="text-4xl sm:text-5xl md:text-6xl -mt-4 font-semibold max-w-[700px] mx-auto w-full text-center"
-        >
-            Feeling stuck? I'm here to help!
-        </h1>
-        <p
-            class="text-sm sm:text-base max-w-[700px] mx-auto w-full text-center"
-        >
-            I will work collaboratively with you to achieve your goals using
-            tailored therapeutic approaches and techniques. I use a
-            compassionate and empathetic approach to create a safe and
-            supportive space where you can explore your emotions, thoughts and
-            behaviours.
-        </p>
-        <div
-            class="flex flex-col sm:flex-row gap-4 sm:gap-6 max-w-[1000px] mx-auto w-full"
-        >
-            {#each services as service}
-                <a
-                    href={service.link}
-                    target={service.name !== "location" ? "_blank" : ""}
-                    class="p-2 sm:p-4 cursor-pointer flex-1 text-slate-800 rounded-lg bg-white specialShadow flex flex-col gap-2 sm:gap-4"
+        <div class="flex flex-col gap-4 sm:gap-6 max-w-[1000px] mx-auto w-full">
+            <a
+                href={"https://beckybradleycounselling.janeapp.com"}
+                target={"_blank"}
+                class="p-4 cursor-pointer flex-1 text-slate-800 rounded-lg bg-white flex flex-col gap-4 max-w-[700px] mx-auto w-full"
+            >
+                <div
+                    class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-x-4 gap-y-2"
                 >
-                    <div
-                        class="flex items-center text-indigo-600 justify-between gap-4 text-lg sm:text-xl md:text-2xl font-semibold capitalize"
+                    <h3
+                        class="text-indigo-600 text-xl md:text-2xl font-semibold capitalize"
                     >
-                        <h3 class="">{service.name}</h3>
-                        {#if service.name === "consultation"}
-                            <i class="fa-solid fa-phone" />
-                        {:else if service.name === "counselling"}
-                            <i class="fa-solid fa-comments" />
-                        {:else if service.name === "location"}
-                            <i class="fa-solid fa-earth-americas" />
-                        {/if}
-                    </div>
-                    <div class="flex items-center flex-1 justify-center">
-                        <p class="text-center">{service.content}</p>
-                    </div>
-                </a>
-            {/each}
+                        Individual Counselling
+                    </h3>
+                    <p
+                        class=" bg-indigo-100 text-indigo-600 w-fit px-3 py-1.5 rounded-lg"
+                    >
+                        50 minutes <i class="fa-solid fa-clock pl-2"></i>
+                    </p>
+                </div>
+                <hr />
+                <div class="flex flex-col gap-2">
+                    <p>
+                        In person therapy sessions are at my office in the
+                        Takapuna Collective at <br /><span class="font-bold"
+                            >416 Lake Road, Takapuna</span
+                        >.
+                    </p>
+                    <p>Online therapy sessions are available.</p>
+                </div>
+                <div
+                    class=" px-8 py-4 rounded-lg bg-white border-[1.5px] border-solid duration-200 cursor-pointer sm:m-2 hover:border-indigo-200 sm:mr-auto border-indigo-400 text-indigo-500 text-center font-medium w-full sm:w-fit"
+                >
+                    Book a Free Consultation
+                </div>
+            </a>
         </div>
     </section>
     <section
-        id="FAQ"
+        id="FAQS"
         class="flex flex-col gap-8 sm:gap-10 md:gap-14 py-6 sm:py-10 md:py-14 px-6 sm:px-8 max-w-[1200px] mx-auto w-full"
     >
         <h1
             class="text-4xl sm:text-5xl md:text-6xl font-semibold max-w-[700px] mx-auto w-full text-center"
         >
-            FAQ
+            FAQS
         </h1>
         <p
             class="text-sm sm:text-base max-w-[700px] mx-auto w-full text-center"
         >
-            <b>Please note </b> that I am unable to provide crisis or emergency support.
-            If you require urgent care, please contact your local emergency service
-            or crisis line.
+            <b>Please note </b> that I am unable to provide crisis or emergency
+            support. If you require urgent care, please contact your
+            <a class="underline text-indigo-600 hover:text-indigo-400 cursor-pointer duration-200" href="https://mentalhealth.org.nz/help" target="_blank">
+                local emergency service or crisis line.
+            </a>
         </p>
         <div
             class="flex flex-col gap-4 select-none max-w-[800px] mx-auto w-full"
@@ -389,7 +430,7 @@
                     </h4>
                     {#if displayFAQ.includes(questionIndex)}
                         <p
-                            class="text-slate-600 pl-2 text-sm sm:text-base text-left"
+                            class="text-slate-600 text-justify pl-2 text-sm sm:text-base text-left"
                         >
                             {question.answer}
                         </p>
@@ -405,13 +446,13 @@
         <p
             class="text-4xl sm:text-5xl md:text-6xl text-indigo-400 font-semibold text max-w-[700px] mx-auto w-full text-center"
         >
-            See what people are saying!
+            Testimonials
         </p>
         <div class="flex flex-col gap-4 sm:gap-8">
             <p
                 class="text-slate-600 italic max-w-[1200px] w-full mx-auto font-light text-justify"
             >
-                {testimonials[showTestimonial]}
+                "{testimonials[showTestimonial]}"
             </p>
             <div class="flex items-center mx-auto gap-2">
                 {#each testimonials as item, itemIndex}
@@ -439,7 +480,8 @@
         <p
             class="text-sm sm:text-base max-w-[700px] mx-auto w-full text-center"
         >
-            For any questions, qualms or queries you may have, please send me an email here:
+            For any questions, qualms or queries you may have, please send me an
+            email here:
         </p>
         <!-- <i class="fa-solid fa-envelopes-bulk mx-auto text-2xl" /> -->
 
@@ -448,7 +490,9 @@
             <!-- <p>
                 Send me an email @<br /><br /> beckybradleycounselling@gmail.com
             </p> -->
-            <h5 class="text-md sm:text-lg md:text-xl">beckybradleycounselling@gmail.com</h5>
+            <h5 class="text-md sm:text-lg md:text-xl">
+                beckybradleycounselling@gmail.com
+            </h5>
         </div>
     </section>
 </main>
@@ -457,11 +501,11 @@
     class="py-20 px-8 flex items-center justify-center text-sm sm:text-base"
 >
     <div class="mx-auto max-w-[600px] w-full flex flex-col gap-4 text-center">
-        <p>Copyright © 2023 Becky Bradley Counselling</p>
+        <p>Copyright © 2025 Becky Bradley Counselling</p>
         <a
             class="text-indigo-400"
             href="https://www.smoljames.com"
-            target="_blank">Website by James Development</a
+            target="_blank">by James</a
         >
     </div>
 </footer>
