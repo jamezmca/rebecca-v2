@@ -214,7 +214,7 @@
                 >, where all parts of you are welcome. I will support you in
                 developing a deeper understanding of yourself, so you can make
                 <b class="font-normal text-indigo-500"
-                    >meaningful and transformative change</b
+                    >meaningful and transformative</b
                 > change in your life.
             </p>
             <a
