@@ -208,21 +208,14 @@
                 <b class="text-indigo-400">healing</b> and
                 <b class="text-indigo-400">growth</b>
             </h1>
-            <p class="text-sm sm:text-base text-justify">
+            <p class="text-sm sm:text-base ">
                 Step into a space of <b class="font-normal text-indigo-500"
                     >non-judgement, trust and empowerment</b
-                >, where all parts of you are welcome. Together, we will explore
-                the different
+                >, where all parts of you are welcome. I will support you in
+                developing a deeper understanding of yourself, so you can make
                 <b class="font-normal text-indigo-500"
-                    >parts of your inner world</b
-                >
-                - especially those that feel stuck, overwhelmed, or protective. I
-                will support you in developing a deeper understanding of yourself,
-                so you can make meaningful changes in your life and move through
-                challenges with more
-                <b class="font-normal text-indigo-500"
-                    >clarity, confidence, and compassion</b
-                >.
+                    >meaningful and transformative change</b
+                > change in your life.
             </p>
             <a
                 href="https://beckybradleycounselling.janeapp.com"
@@ -261,15 +254,15 @@
             <b class="text-indigo-400">best</b>
         </h1> -->
         <div
-            class="flex flex-col gap-4 text-sm sm:text-base max-w-[700px] mx-auto w-full text-center text-justify"
+            class="flex flex-col gap-4 text-sm sm:text-base max-w-[700px] mx-auto w-full text-center "
         >
             <p>
                 Kia ora, my name is Becky (she/her). I am a Registered
                 Counsellor and Internal Family Systems (IFS) Therapist based in
-                Takapuna, Auckland, offering individual therapy for adults (18+)
-                both in person and online. I am passionate about supporting
-                people with their mental health, having witnessed firsthand the
-                profound impact therapy can have.
+                Auckland, offering individual therapy for adults (18+) both in
+                person and online. I am passionate about supporting people with
+                their mental health, having witnessed firsthand the profound
+                impact therapy can have.
             </p>
             <p>
                 I hold a Master’s degree in Counselling Psychology and have a
@@ -319,7 +312,7 @@
             Here's how I can help
         </h1>
         <p
-            class="text-sm sm:text-base max-w-[700px] mx-auto w-full text-center text-justify"
+            class="text-sm sm:text-base max-w-[700px] mx-auto w-full text-center "
         >
             I will work collaboratively with you using tailored therapeutic
             approaches that meet you where you are. With empathy and curiosity,
@@ -403,7 +396,11 @@
         >
             <b>Please note </b> that I am unable to provide crisis or emergency
             support. If you require urgent care, please contact your
-            <a class="underline text-indigo-600 hover:text-indigo-400 cursor-pointer duration-200" href="https://mentalhealth.org.nz/help" target="_blank">
+            <a
+                class="underline text-indigo-600 hover:text-indigo-400 cursor-pointer duration-200"
+                href="https://mentalhealth.org.nz/help"
+                target="_blank"
+            >
                 local emergency service or crisis line.
             </a>
         </p>
@@ -430,7 +427,7 @@
                     </h4>
                     {#if displayFAQ.includes(questionIndex)}
                         <p
-                            class="text-slate-600 text-justify pl-2 text-sm sm:text-base text-left"
+                            class="text-slate-600  pl-2 text-sm sm:text-base text-left"
                         >
                             {question.answer}
                         </p>
@@ -450,7 +447,7 @@
         </p>
         <div class="flex flex-col gap-4 sm:gap-8">
             <p
-                class="text-slate-600 italic max-w-[1200px] w-full mx-auto font-light text-justify"
+                class="text-slate-600 italic max-w-[1200px] w-full mx-auto font-light "
             >
                 "{testimonials[showTestimonial]}"
             </p>
